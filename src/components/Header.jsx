@@ -1,7 +1,15 @@
 import { Link } from "react-router-dom";
 import data from "../data/navigation.json";
+import { useState } from "react";
+import { FaBars } from "react-icons/fa";
+import { HiX } from "react-icons/hi";
 
 const Header = () => {
+  const [toggleIcon, setToggleIcon] = useState(false);
+
+  const handleToggleIcon = () => {
+    setToggleIcon(!toggleIcon);
+  };
   return (
     <header>
       <nav className="navigation">
@@ -10,7 +18,9 @@ const Header = () => {
             <h1>Portfolio</h1>
           </Link>
         </div>
-        <ul className="navigation_container_menu">
+        <ul
+          className={`navigation_container_menu ${toggleIcon ? "active" : ""}`}
+        >
           {data.map((item, index) => (
             <li key={"item" + index} className="navigation_container_menu_item">
               <Link
@@ -22,6 +32,9 @@ const Header = () => {
             </li>
           ))}
         </ul>
+        <div className="menu_hamburger_icon" onClick={handleToggleIcon}>
+          {toggleIcon ? <HiX size={40} /> : <FaBars size={40} />}
+        </div>
       </nav>
     </header>
   );
