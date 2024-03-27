@@ -107,6 +107,7 @@ section {
   display: block;
 }
 * {
+  @include inter;
   box-sizing: border-box;
   scroll-behavior: smooth;
   padding: 0;

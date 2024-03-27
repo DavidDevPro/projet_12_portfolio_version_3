@@ -8,6 +8,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+/********** font inter **********/
+@mixin inter {
+  font-family: "Inter", sans-serif;
+}
+
 /********** transition 500ms ease in out **********/
 @mixin transition500 {
   transition: all 500ms ease-in-out;

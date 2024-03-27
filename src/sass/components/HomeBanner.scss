@@ -1,0 +1,9 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.banner_img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  padding-top: 100px;
+}

@@ -1,5 +1,12 @@
+import srcBanner from "../assets/images/homeBanner.webp";
+import HomeBanner from "../components/HomeBanner";
+
 const HomePage = () => {
-  return <div></div>;
+  return (
+    <main className="main">
+      <HomeBanner imgSrc={srcBanner} />
+    </main>
+  );
 };
 
 export default HomePage;

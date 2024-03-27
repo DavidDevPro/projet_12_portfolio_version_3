@@ -23,7 +23,7 @@
     flex: 1;
 
     &_logo {
-      @include poppins;
+      @include inter;
       color: $fourth_color;
       text-decoration: none;
       font-weight: 500;
@@ -57,7 +57,7 @@
       }
 
       &_item {
-        @include poppins;
+        @include inter;
         font-size: 1.6em;
         font-weight: 500;
         @media screen and (max-width: 768px) {

@@ -2,4 +2,6 @@
 @use "./sass/settings/fonts";
 @use "./sass/utils/mixins";
 @use "./sass/utils/variables";
+@use "./sass/pages/HomePage";
 @use "./sass/components/Header";
+@use "./sass/components/HomeBanner";
