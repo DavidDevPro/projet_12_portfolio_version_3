@@ -1,0 +1,32 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.home_text {
+  color: $secondary100_color;
+  max-width: 1600px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+
+  h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+  }
+  &_name {
+    display: flex;
+    gap: 15px;
+    font-size: 4em;
+
+    h4 {
+      color: $fourth_color;
+    }
+  }
+  h5 {
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+}

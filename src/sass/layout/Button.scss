@@ -1,0 +1,20 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.button {
+  @include inter;
+  color: $secondary100_color;
+  background-color: transparent;
+  border: 2px solid $fourth_color;
+  border-radius: 25px;
+  padding: 8px 30px;
+  font-size: 1.6em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 400ms ease-out, color 400ms ease;
+
+  &:hover {
+    color: $primary200_color;
+    background-color: $secondary100_color;
+  }
+}
