@@ -1,0 +1,21 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.head_page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+  border-bottom: 1px dashed $fourth_color;
+
+  h2 {
+    color: $fourth_color;
+    font-size: 2.2em;
+    font-weight: 600;
+  }
+  span {
+    svg {
+      color: $fourth_color;
+    }
+  }
+}
