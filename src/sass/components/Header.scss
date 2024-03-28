@@ -1,98 +1,103 @@
 @import "../utils/mixins.scss";
 @import "../utils/variables.scss";
 
-.navigation {
-  background-color: $primary100_color;
+header {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 20px;
   height: 100px;
-  position: fixed;
-  opacity: 0.96;
 
-  @media screen and (max-width: 768px) {
-    opacity: 1;
-  }
-  &_container {
+  .navigation {
+    background-color: $primary100_color;
+    width: 100%;
     display: flex;
     align-items: center;
-    width: 100%;
-    height: inherit;
-    flex: 1;
+    justify-content: center;
+    padding: 0 20px;
+    height: 100px;
+    position: fixed;
+    opacity: 0.96;
 
-    &_logo {
-      @include inter;
-      color: $fourth_color;
-      text-decoration: none;
-      font-weight: 500;
-      letter-spacing: 0.6px;
-      font-size: 2em;
+    @media screen and (max-width: 768px) {
+      opacity: 1;
     }
-
-    &_menu {
+    &_container {
       display: flex;
       align-items: center;
-      gap: 30px;
-      @media screen and (max-width: 768px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        top: 100px;
-        left: -100%;
-        opacity: 0;
-        transition: left 500ms ease-out;
-        gap: 40px;
+      width: 100%;
+      height: inherit;
+      flex: 1;
 
-        &.active {
-          background-color: $primary100_color;
-          left: 0px;
-          opacity: 1;
-        }
+      &_logo {
+        @include inter;
+        color: $fourth_color;
+        text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 0.6px;
+        font-size: 2em;
       }
 
-      &_item {
-        @include inter;
-        font-size: 1.6em;
-        font-weight: 500;
+      &_menu {
+        display: flex;
+        align-items: center;
+        gap: 30px;
         @media screen and (max-width: 768px) {
-          margin: 0px;
-          padding: 10px 0;
-          font-size: 1.8em;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100vh;
+          position: absolute;
+          top: 100px;
+          left: -100%;
+          opacity: 0;
+          transition: left 500ms ease-out;
+          gap: 40px;
+
+          &.active {
+            background-color: $primary100_color;
+            left: 0px;
+            opacity: 1;
+          }
         }
 
-        &::after {
-          content: "";
-          display: block;
-          width: 0;
-          height: 3px;
-          background-color: transparent;
-          border-radius: 2px;
-          transition: all 500ms ease;
-        }
-        &:hover::after {
-          width: 100%;
-          background-color: $secondary100_color;
-        }
-        &_links {
-          text-decoration: none;
-          color: $secondary100_color;
-          padding-bottom: 0.3em;
+        &_item {
+          @include inter;
+          font-size: 1.6em;
+          font-weight: 500;
+          @media screen and (max-width: 768px) {
+            margin: 0px;
+            padding: 10px 0;
+            font-size: 1.8em;
+          }
+
+          &::after {
+            content: "";
+            display: block;
+            width: 0;
+            height: 3px;
+            background-color: transparent;
+            border-radius: 2px;
+            transition: all 500ms ease;
+          }
+          &:hover::after {
+            width: 100%;
+            background-color: $secondary100_color;
+          }
+          &_links {
+            text-decoration: none;
+            color: $secondary100_color;
+            padding-bottom: 0.3em;
+          }
         }
       }
     }
   }
-}
-.menu_hamburger_icon {
-  display: none;
-  @media screen and (max-width: 768px) {
-    display: block;
-    cursor: pointer;
-    color: $secondary_color;
+  .menu_hamburger_icon {
+    display: none;
+    @media screen and (max-width: 768px) {
+      display: block;
+      cursor: pointer;
+      color: $secondary_color;
+    }
   }
 }
