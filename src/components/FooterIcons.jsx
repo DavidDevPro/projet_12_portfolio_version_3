@@ -5,11 +5,10 @@ const FooterIcons = ({ url, label, children }) => {
   return (
     <Link
       to={url}
-      className="footer_content_boxIcon_icon"
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}
-      size={20}
+      className="footer_content_boxIcon_icon"
     >
       {children}
     </Link>

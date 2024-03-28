@@ -39,7 +39,7 @@ const Footer = () => {
                   url={data.href}
                   label={data["aria-label"]}
                 >
-                  <Icon />
+                  <Icon size={20} />
                 </FooterIcons>
               );
             })}

@@ -2,12 +2,7 @@ import PropTypes from "prop-types";
 
 const HomeBanner = ({ imgSrc }) => {
   return (
-    <img
-      src={imgSrc}
-      className="banner_img"
-      alt="image de la page d'accueil"
-      loading="easer"
-    />
+    <img src={imgSrc} className="banner_img" alt="image de la page d'accueil" />
   );
 };
 

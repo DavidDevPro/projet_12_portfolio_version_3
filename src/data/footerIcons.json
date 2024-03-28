@@ -4,44 +4,34 @@
     "target": "_blank",
     "rel": "noopener noreferrer",
     "aria-label": "Twitter",
-    "className": "footer_content_boxIcon_icon",
-    "icon": "FaTwitter",
-    "size": 20
+    "icon": "FaTwitter"
   },
   {
     "href": "https://www.linkedin.com/in/david-changea-440a7945/",
     "target": "_blank",
     "rel": "noopener noreferrer",
     "aria-label": "Linkedin",
-    "className": "footer_content_boxIcon_icon",
-    "icon": "FaLinkedinIn",
-    "size": 20
+    "icon": "FaLinkedinIn"
   },
   {
     "href": "https://www.facebook.com/veday.shop/?locale=fr_FR",
     "target": "_blank",
     "rel": "noopener noreferrer",
     "aria-label": "Facebook",
-    "className": "footer_content_boxIcon_icon",
-    "icon": "FaFacebookF",
-    "size": 20
+    "icon": "FaFacebookF"
   },
   {
     "href": "https://github.com/david-backup",
     "target": "_blank",
     "rel": "noopener noreferrer",
     "aria-label": "Github",
-    "className": "footer_content_boxIcon_icon",
-    "icon": "FaGithub",
-    "size": 20
+    "icon": "FaGithub"
   },
   {
     "href": "mailto:14ir155@gmail.com",
     "target": "_blank",
     "rel": "noopener noreferrer",
     "aria-label": "Envoyer un message",
-    "className": "footer_content_boxIcon_icon",
-    "icon": "TfiEmail",
-    "size": 20
+    "icon": "TfiEmail"
   }
 ]
