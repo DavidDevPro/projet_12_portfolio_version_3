@@ -3,36 +3,36 @@
     "id": "0",
     "pageId": "ohmyfood",
     "title": "Site OhmyFood",
-    "cover": ""
+    "cover": "/assets/images/ohmyfood_cover.webp"
   },
   {
     "id": "1",
     "pageId": "kasa",
     "title": "Site Kasa",
-    "cover": ""
+    "cover": "/assets/images/kasa_cover.webp"
   },
   {
     "id": "2",
     "pageId": "nina_carducci",
     "title": "Site Nina Carducci",
-    "cover": ""
+    "cover": "/assets/images/nina_cover.webp"
   },
   {
     "id": "3",
     "pageId": "auto_street",
     "title": "Site Auto-Street",
-    "cover": ""
+    "cover": "/assets/images/auto_street_cover.webp"
   },
   {
     "id": "4",
     "pageId": "argentbank",
     "title": "Site ArgentBank",
-    "cover": ""
+    "cover": "/assets/images/argentbank_cover.webp"
   },
   {
     "id": "5",
     "pageId": "portfolio",
     "title": "Mon Portfolio",
-    "cover": ""
+    "cover": "/assets/images/portfolio_cover.webp"
   }
 ]

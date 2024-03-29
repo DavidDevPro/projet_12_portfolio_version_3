@@ -1,0 +1,37 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.filter {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+  flex-grow: 1;
+
+  &_items {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 1px dashed $fourth_color;
+    padding: 4px 4px 0px;
+    li {
+      display: inline-block;
+      position: relative;
+      color: $fourth_color;
+      font-size: 1.15em;
+      text-transform: uppercase;
+      padding: 12px 23px;
+      cursor: pointer;
+      overflow: hidden;
+
+      &.active {
+        background-color: $primary100_color;
+        color: $secondary100_color;
+        font-weight: 600;
+        border-radius: 25px;
+        opacity: 0.96;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+      }
+    }
+  }
+}
