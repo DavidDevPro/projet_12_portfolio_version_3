@@ -1,7 +1,16 @@
+/* couleurs de base*/
+
 $primary_color: #101010; //noir
 $primary100_color: #01161e; //noir background
 $primary200_color: #476c9b; //fond bleu foncé background
 $secondary_color: #ffffff; //blanc
 $secondary100_color: #fcfcfc; //blanc light
-// $fourth_color: #89d2dc; //bleu clair
 $fourth_color: #a2d6f9; //bleu clair
+
+/* couleurs option*/
+
+$sass_color: #ef27a6; // couleur pour icon sass
+$react_color: #16bac5; // couleur pour icon react
+$github_color: #171a21; // couleur pour icon github
+$nodejs_color: #21a179; // couleur pour icon nodejs
+$js_color: #e3b505; // couleur pour icon javascript

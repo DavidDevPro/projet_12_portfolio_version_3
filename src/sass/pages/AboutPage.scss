@@ -1,2 +1,146 @@
 @import "../utils/mixins.scss";
 @import "../utils/variables.scss";
+
+.main_about_section {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+  .about {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 50px 30px 0 0;
+    gap: 35px;
+
+    h3 {
+      color: $primary100_color;
+      font-size: 2.6em;
+      font-weight: 600;
+    }
+
+    &_text {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      padding-bottom: 50px;
+      border-bottom: 1px dashed $fourth_color;
+
+      article {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: $secondary100_color;
+        line-height: 1.3em;
+        font-size: 1.25em;
+        letter-spacing: 0.15px;
+      }
+    }
+    &_infos {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        li {
+          display: flex;
+          gap: 15px;
+          color: $secondary100_color;
+          line-height: 1.3em;
+          font-size: 1.25em;
+
+          .title {
+            color: $primary100_color;
+            font-size: 1.15em;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+  .about_wrapper {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_content {
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(180px, $fourth_color, transparent 90%);
+      position: relative;
+      border-radius: 50%;
+      border: 1.5px solid $fourth_color;
+      animation: rotation 20s linear 1s infinite;
+
+      @keyframes rotation {
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      div:nth-child(1) {
+        color: $sass_color;
+        position: absolute;
+        top: -15%;
+        left: 41%;
+        transform: rotate(15deg);
+        @media screen and (max-width: 768px) {
+          top: -12%;
+          left: 40%;
+        }
+      }
+      div:nth-child(2) {
+        color: $react_color;
+        position: absolute;
+        top: 37%;
+        right: -11.5%;
+        @media screen and (max-width: 768px) {
+          top: 40%;
+          right: -11%;
+        }
+      }
+      div:nth-child(3) {
+        color: $github_color;
+        position: absolute;
+        bottom: -11%;
+        left: 41%;
+        @media screen and (max-width: 768px) {
+          bottom: -11%;
+          left: 40%;
+        }
+      }
+      div:nth-child(4) {
+        color: $nodejs_color;
+        position: absolute;
+        top: 38%;
+        left: -11%;
+        transform: rotate(-90deg);
+        @media screen and (max-width: 768px) {
+          top: 40%;
+          left: -11%;
+        }
+      }
+      div:nth-child(5) {
+        color: $js_color;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @media screen and (max-width: 768px) {
+          top: 40%;
+          left: -11%;
+        }
+      }
+    }
+  }
+}
