@@ -76,7 +76,7 @@
     &_content {
       width: 350px;
       height: 350px;
-      background: radial-gradient(180px, $fourth_color, transparent 90%);
+      background: radial-gradient(175px, $fourth_color, transparent 95%);
       position: relative;
       border-radius: 50%;
       border: 1.5px solid $fourth_color;
@@ -112,8 +112,9 @@
       div:nth-child(3) {
         color: $github_color;
         position: absolute;
-        bottom: -11%;
+        bottom: -10%;
         left: 41%;
+        transform: rotate(180deg);
         @media screen and (max-width: 768px) {
           bottom: -11%;
           left: 40%;
