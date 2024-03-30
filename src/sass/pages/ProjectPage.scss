@@ -76,5 +76,70 @@
         border-bottom: 1px dashed $fourth_color;
       }
     }
+    .overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: $fourth_color;
+      border: 1px solid $primary100_color;
+      border-radius: 25px;
+      opacity: 0;
+      transition: opacity 425ms ease;
+      &:hover {
+        opacity: 0.97;
+      }
+      div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        p {
+          position: relative;
+          width: 100%;
+          color: $primary100_color;
+          font-size: 2.4em;
+          font-weight: 500;
+          overflow: hidden;
+          white-space: nowrap;
+          margin-bottom: 45px;
+          animation: textEffect 900ms steps(30, end);
+          @keyframes textEffect {
+            from {
+              width: 0;
+            }
+            to {
+              width: 100%;
+            }
+          }
+          @media screen and (min-width: 768px) and (max-width: 1240px) {
+            font-size: 1.9em;
+          }
+          @media screen and (max-width: 450px) {
+            font-size: 1.7em;
+          }
+        }
+        .button_overlay {
+          color: $primary100_color;
+          font-size: 2em;
+          font-weight: 500;
+          background-color: transparent;
+          border: 2px solid $secondary100_color;
+          border-radius: 12px;
+          padding: 9px 70px;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+          transition: all 350ms ease;
+          cursor: pointer;
+          &:hover {
+            background-color: $primary200_color;
+            color: $secondary100_color;
+          }
+        }
+      }
+    }
   }
 }

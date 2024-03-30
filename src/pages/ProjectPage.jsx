@@ -3,6 +3,7 @@ import HeadPages from "../components/HeadPages";
 import { FaDev } from "react-icons/fa6";
 import dataFilter from "../data/filterProject.json";
 import dataProject from "../data/listProject.json";
+import { Link } from "react-router-dom";
 
 const ProjectPage = () => {
   const [filteredId, setFilteredId] = useState(0);
@@ -47,6 +48,16 @@ const ProjectPage = () => {
                 <div className="cards_item_img-wrapper">
                   <img src={item.cover} alt={`image du ${item.title}`} />
                   <p>{item.title}</p>
+                </div>
+                <div className="overlay">
+                  {index === hoveredValue && (
+                    <div>
+                      <p>{item.title}</p>
+                      <Link to={`/project/${item.pageId}`}>
+                        <button className="button_overlay">Visiter</button>
+                      </Link>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
