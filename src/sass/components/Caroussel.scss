@@ -1,0 +1,29 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.Caroussel {
+  width: 100%;
+  max-width: 1024px;
+  height: 500px;
+  margin: 0 auto 50px;
+  position: relative;
+  border-radius: 25px;
+  border: 1px solid black;
+  animation: delayCaroussel 1000ms ease;
+  @keyframes delayCaroussel {
+    0% {
+      opacity: 0;
+      width: 0;
+    }
+    100% {
+      opacity: 1;
+      width: 100%;
+    }
+  }
+  &_img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+}

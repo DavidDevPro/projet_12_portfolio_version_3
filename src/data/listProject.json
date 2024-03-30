@@ -4,41 +4,53 @@
     "filterId": 2,
     "pageId": "724_events",
     "title": "Site 724 Events",
-    "cover": "/src/assets/images/724_events.webp"
+    "cover": "/src/assets/images/724_events.webp",
+    "pictures": [],
+    "tags": []
   },
   {
     "id": 1,
     "filterId": 2,
     "pageId": "menu_maker",
     "title": "Site Qwenta",
-    "cover": "/src/assets/images/menu_maker.webp"
+    "cover": "/src/assets/images/menu_maker.webp",
+    "pictures": [],
+    "tags": []
   },
   {
     "id": 2,
     "filterId": 2,
     "pageId": "nina_carducci",
     "title": "Site Nina Carducci",
-    "cover": "/src/assets/images/nina_cover.webp"
+    "cover": "/src/assets/images/nina_cover.webp",
+    "pictures": [],
+    "tags": []
   },
   {
     "id": 3,
     "filterId": 1,
     "pageId": "auto_street",
     "title": "Site Auto-Street",
-    "cover": "/src/assets/images/auto_street_cover.webp"
+    "cover": "/src/assets/images/auto_street_cover.webp",
+    "pictures": [],
+    "tags": []
   },
   {
     "id": 4,
     "filterId": 1,
     "pageId": "argentbank",
     "title": "Site ArgentBank",
-    "cover": "/src/assets/images/argentbank_cover.webp"
+    "cover": "/src/assets/images/argentbank_cover.webp",
+    "pictures": [],
+    "tags": []
   },
   {
     "id": 5,
     "filterId": 1,
     "pageId": "portfolio",
     "title": "Mon Portfolio",
-    "cover": "/src/assets/images/portfolio_cover.webp"
+    "cover": "/src/assets/images/portfolio_cover.webp",
+    "pictures": [],
+    "tags": []
   }
 ]
