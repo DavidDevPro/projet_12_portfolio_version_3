@@ -1,38 +1,44 @@
 [
   {
-    "id": "0",
-    "pageId": "ohmyfood",
-    "title": "Site OhmyFood",
-    "cover": "/assets/images/ohmyfood_cover.webp"
+    "id": 0,
+    "filterId": 2,
+    "pageId": "724_events",
+    "title": "Site 724 Events",
+    "cover": "/src/assets/images/724_events.webp"
   },
   {
-    "id": "1",
-    "pageId": "kasa",
-    "title": "Site Kasa",
-    "cover": "/assets/images/kasa_cover.webp"
+    "id": 1,
+    "filterId": 2,
+    "pageId": "menu_maker",
+    "title": "Site Qwenta",
+    "cover": "/src/assets/images/menu_maker.webp"
   },
   {
-    "id": "2",
+    "id": 2,
+    "filterId": 2,
     "pageId": "nina_carducci",
     "title": "Site Nina Carducci",
-    "cover": "/assets/images/nina_cover.webp"
+    "cover": "/src/assets/images/nina_cover.webp"
   },
   {
-    "id": "3",
+    "id": 3,
+    "filterId": 1,
     "pageId": "auto_street",
     "title": "Site Auto-Street",
-    "cover": "/assets/images/auto_street_cover.webp"
+    "cover": "/src/assets/images/auto_street_cover.webp"
   },
   {
-    "id": "4",
+    "id": 4,
+    "filterId": 1,
     "pageId": "argentbank",
     "title": "Site ArgentBank",
-    "cover": "/assets/images/argentbank_cover.webp"
+    "cover": "/src/assets/images/argentbank_cover.webp"
   },
   {
-    "id": "5",
+    "id": 5,
+    "filterId": 1,
     "pageId": "portfolio",
     "title": "Mon Portfolio",
-    "cover": "/assets/images/portfolio_cover.webp"
+    "cover": "/src/assets/images/portfolio_cover.webp"
   }
 ]
