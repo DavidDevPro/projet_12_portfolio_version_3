@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "./Button";
 
 const HomeText = () => {
   return (
@@ -10,7 +11,11 @@ const HomeText = () => {
       </div>
       <h5>Développeur Front-End</h5>
       <Link to="/contact">
-        <button className="button button_contact">Contactez-moi</button>
+        <Button
+          className="button button_contact"
+          type="submit"
+          text="Contactez-moi"
+        />
       </Link>
     </div>
   );

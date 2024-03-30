@@ -4,6 +4,7 @@ import { FaDev } from "react-icons/fa6";
 import dataFilter from "../data/filterProject.json";
 import dataProject from "../data/listProject.json";
 import { Link } from "react-router-dom";
+import Button from "../components/Button";
 
 const ProjectPage = () => {
   const [filteredId, setFilteredId] = useState(0);
@@ -54,7 +55,11 @@ const ProjectPage = () => {
                     <div>
                       <p>{item.title}</p>
                       <Link to={`/project/${item.pageId}`}>
-                        <button className="button_overlay">Visiter</button>
+                        <Button
+                          className="button_overlay"
+                          type="submit"
+                          text="Visiter"
+                        />
                       </Link>
                     </div>
                   )}
