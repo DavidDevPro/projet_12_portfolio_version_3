@@ -3,6 +3,7 @@
 
 .button {
   @include inter;
+  @include shadow_button;
   color: $secondary100_color;
   background-color: transparent;
   border: 2px solid $fourth_color;

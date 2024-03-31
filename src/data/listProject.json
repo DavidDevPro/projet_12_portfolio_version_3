@@ -5,7 +5,14 @@
     "pageId": "724_events",
     "title": "Site 724 Events",
     "cover": "/src/assets/images/724_events.webp",
-    "pictures": [],
+    "pictures": [
+      "/src/assets/images_slider/724_events_1.webp",
+      "/src/assets/images_slider/724_events_2.webp",
+      "/src/assets/images_slider/724_events_3.webp",
+      "/src/assets/images_slider/724_events_4.webp",
+      "/src/assets/images_slider/724_events_5.webp",
+      "/src/assets/images_slider/724_events_6.webp"
+    ],
     "tags": []
   },
   {
@@ -14,7 +21,15 @@
     "pageId": "menu_maker",
     "title": "Site Qwenta",
     "cover": "/src/assets/images/menu_maker.webp",
-    "pictures": [],
+    "pictures": [
+      "/src/assets/images_slider/menu_maker_1.webp",
+      "/src/assets/images_slider/menu_maker_2.webp",
+      "/src/assets/images_slider/menu_maker_3.webp",
+      "/src/assets/images_slider/menu_maker_4.webp",
+      "/src/assets/images_slider/menu_maker_5.webp",
+      "/src/assets/images_slider/menu_maker_6.webp",
+      "/src/assets/images_slider/menu_maker_7.webp"
+    ],
     "tags": []
   },
   {

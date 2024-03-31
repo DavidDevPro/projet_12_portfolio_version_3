@@ -1,14 +1,14 @@
 @import "../utils/mixins.scss";
 @import "../utils/variables.scss";
 
-.Caroussel {
+.caroussel {
+  @include shadow;
   width: 100%;
-  max-width: 1024px;
-  height: 500px;
-  margin: 0 auto 50px;
+  max-width: 1240px;
+  height: 600px;
+  margin: 75px auto 75px;
   position: relative;
   border-radius: 25px;
-  border: 1px solid black;
   animation: delayCaroussel 1000ms ease;
   @keyframes delayCaroussel {
     0% {
@@ -22,8 +22,38 @@
   }
   &_img {
     width: 100%;
-    height: 500px;
+    height: inherit;
     object-fit: cover;
     border-radius: 25px;
+  }
+  .arrow {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 1px $primary100_color);
+  }
+  .arrowLeft {
+    left: 20px;
+  }
+  .arrowRight {
+    right: 20px;
+  }
+  .slide_indicator {
+    @include shadow_button;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $secondary100_color;
+    background-color: $primary100_color;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 7px 22px;
+    border: 2px solid $fourth_color;
+    border-radius: 25px;
+    opacity: 0.98;
   }
 }

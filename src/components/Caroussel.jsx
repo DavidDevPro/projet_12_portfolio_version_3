@@ -26,13 +26,13 @@ const Caroussel = ({ slides }) => {
         alt={`Slide ${currentIndex + 1}`}
       />
       <img
-        className="arrowLeft"
+        className="arrow arrowLeft"
         src={arrowLeft}
         alt="Flèche gauche de navigation des slides"
         onClick={() => updateIndex(-1)}
       />
       <img
-        className="arrowRight"
+        className="arrow arrowRight"
         src={arrowRight}
         alt="Flèche droite de navigation des slides"
         onClick={() => updateIndex(1)}
