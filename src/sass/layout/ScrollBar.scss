@@ -21,4 +21,5 @@
 /* Personnalise le pouce au survol */
 ::-webkit-scrollbar-thumb:hover {
   background: $secondary100_color; /* Couleur du pouce au survol */
+  cursor: pointer;
 }
