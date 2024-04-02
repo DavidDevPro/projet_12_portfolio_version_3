@@ -13,7 +13,10 @@
       "/src/assets/images_slider/724_events_5.webp",
       "/src/assets/images_slider/724_events_6.webp"
     ],
-    "tags": []
+    "tags": [
+      "React",
+      "Débug"
+    ]
   },
   {
     "id": 1,
