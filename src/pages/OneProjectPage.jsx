@@ -15,7 +15,7 @@ const OneProjectPage = () => {
         headText={`Projet ${data.pageId}`}
         icon={<FaFileWaveform size={45} />}
       />
-      <section>
+      <section className="one_project_page_section">
         <h1>Illustrations du projet :</h1>
 
         <Caroussel slides={data.pictures} />
