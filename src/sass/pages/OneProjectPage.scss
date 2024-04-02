@@ -1,0 +1,19 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+section {
+  padding: 50px 20px;
+
+  h1 {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    color: $secondary100_color;
+    background-color: $primary100_color;
+    border: 2px solid $fourth_color;
+    padding: 6px 20px;
+    border-radius: 15px;
+    font-size: 2.3em;
+    font-weight: 500;
+  }
+}

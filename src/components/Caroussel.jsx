@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import arrowRight from "../assets/images/arrowRight.svg";
 import arrowLeft from "../assets/images/arrowLeft.svg";
 
@@ -17,6 +17,16 @@ const Caroussel = ({ slides }) => {
       return newIndex;
     });
   };
+  {
+    /*  
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      updateIndex(1);
+    }, 5000);
+    return () => clearInterval(intervalId);
+  }, []); 
+    */
+  }
 
   return (
     <div className="caroussel">

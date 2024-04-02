@@ -16,7 +16,7 @@ const OneProjectPage = () => {
         icon={<FaFileWaveform size={45} />}
       />
       <section>
-        <h1></h1>
+        <h1>Illustrations du projet :</h1>
 
         <Caroussel slides={data.pictures} />
         <h2></h2>

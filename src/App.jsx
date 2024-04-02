@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ProjectPage from "./pages/ProjectPage";
 import OneProjectPage from "./pages/OneProjectPage";
+import ContactPage from "./pages/ContactPage";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/project" element={<ProjectPage />} />
           <Route path="/project/:id" element={<OneProjectPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
         {/* Footer*/}
         <Footer />
