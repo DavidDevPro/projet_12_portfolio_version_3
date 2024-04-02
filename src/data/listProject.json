@@ -71,7 +71,14 @@
     "pageId": "argentbank",
     "title": "Site ArgentBank",
     "cover": "/src/assets/images/argentbank_cover.webp",
-    "pictures": [],
+    "pictures": [
+      "/src/assets/images_slider/argent_bank_1.webp",
+      "/src/assets/images_slider/argent_bank_2.webp",
+      "/src/assets/images_slider/argent_bank_3.webp",
+      "/src/assets/images_slider/argent_bank_4.webp",
+      "/src/assets/images_slider/argent_bank_5.webp",
+      "/src/assets/images_slider/argent_bank_6.webp"
+    ],
     "tags": []
   },
   {
@@ -80,7 +87,11 @@
     "pageId": "portfolio",
     "title": "Mon Portfolio",
     "cover": "/src/assets/images/portfolio_cover.webp",
-    "pictures": [],
+    "pictures": [
+      "/src/assets/images_slider/portfolio_1.webp",
+      "/src/assets/images_slider/portfolio_2.webp",
+      "/src/assets/images_slider/portfolio_3.webp"
+    ],
     "tags": []
   }
 ]
