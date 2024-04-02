@@ -1,9 +1,16 @@
 @import "../utils/mixins.scss";
 @import "../utils/variables.scss";
 
-.contact_section {
+.contact_section,
+.contact_section_form {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
   padding: 50px 20px;
+}
+.contact_section {
+  max-width: 1600px;
+}
+.contact_section_form {
+  max-width: 1024px;
 }
