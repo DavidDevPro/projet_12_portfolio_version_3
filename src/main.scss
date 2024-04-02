@@ -6,11 +6,14 @@
 @use "./sass/pages/AboutPage";
 @use "./sass/pages/ProjectPage";
 @use "./sass/pages/OneProjectPage";
+@use "./sass/pages/ContactPage";
 @use "./sass/components/Header";
 @use "./sass/components/HomeBanner";
 @use "./sass/components/HomeText";
 @use "./sass/components/Caroussel";
 @use "./sass/components/ProjectTags";
+@use "./sass/components/ContactText";
+@use "./sass/components/ContactForm";
 @use "./sass/layout/Button";
 @use "./sass/layout/Footer";
 @use "./sass/layout/HeadPages";

@@ -1,0 +1,9 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+section {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
