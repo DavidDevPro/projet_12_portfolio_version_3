@@ -15,11 +15,10 @@
 /* Personnalise le pouce de la barre de défilement */
 ::-webkit-scrollbar-thumb {
   background: $fourth_color; /* Couleur du pouce */
-  // border-radius: 6px; /* Extrémités arrondies */
 }
 
 /* Personnalise le pouce au survol */
 ::-webkit-scrollbar-thumb:hover {
-  background: $secondary100_color; /* Couleur du pouce au survol */
+  background: $secondary100_color;
   cursor: pointer;
 }

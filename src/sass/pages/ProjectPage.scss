@@ -53,7 +53,7 @@
       position: relative;
       height: 400px;
       margin-bottom: 60px;
-      border-radius: 25px;
+      border-radius: 20px;
       box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.35);
       cursor: pointer;
 
@@ -63,8 +63,8 @@
           max-width: 1024px;
           height: 400px;
           margin: auto;
-          border-radius: 25px;
-          border: 1px solid $primary100_color;
+          border-radius: 20px;
+          // border: 1px solid $primary100_color;
         }
       }
       p {
@@ -85,8 +85,8 @@
       left: 0;
       right: 0;
       background-color: $fourth_color;
-      border: 1px solid $primary100_color;
-      border-radius: 25px;
+      // border: 1px solid $primary100_color;
+      border-radius: 20px;
       opacity: 0;
       transition: opacity 425ms ease;
       &:hover {

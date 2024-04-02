@@ -38,7 +38,16 @@
     "pageId": "nina_carducci",
     "title": "Site Nina Carducci",
     "cover": "/src/assets/images/nina_cover.webp",
-    "pictures": [],
+    "pictures": [
+      "/src/assets/images_slider/nina_1.webp",
+      "/src/assets/images_slider/nina_2.webp",
+      "/src/assets/images_slider/nina_3.webp",
+      "/src/assets/images_slider/nina_4.webp",
+      "/src/assets/images_slider/nina_5.webp",
+      "/src/assets/images_slider/nina_6.webp",
+      "/src/assets/images_slider/nina_7.webp",
+      "/src/assets/images_slider/nina_8.webp"
+    ],
     "tags": []
   },
   {
@@ -47,7 +56,13 @@
     "pageId": "auto_street",
     "title": "Site Auto-Street",
     "cover": "/src/assets/images/auto_street_cover.webp",
-    "pictures": [],
+    "pictures": [
+      "/src/assets/images_slider/auto_street_1.webp",
+      "/src/assets/images_slider/auto_street_2.webp",
+      "/src/assets/images_slider/auto_street_3.webp",
+      "/src/assets/images_slider/auto_street_4.webp",
+      "/src/assets/images_slider/auto_street_5.webp"
+    ],
     "tags": []
   },
   {
