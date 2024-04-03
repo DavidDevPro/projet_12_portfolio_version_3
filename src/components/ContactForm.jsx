@@ -3,6 +3,7 @@ import Label from "./Label";
 import Input from "./Input";
 import Button from "./Button";
 import { useState } from "react";
+import { TbArrowBigRightLinesFilled } from "react-icons/tb";
 
 const ContactForm = () => {
   const [confirmSend, setConfirmSend] = useState("");
@@ -31,54 +32,71 @@ const ContactForm = () => {
 
   return (
     <>
-      <form onSubmit={onSubmit}>
-        <Label htmlFor={"from_name"} className="labelform">
-          Votre nom :
-        </Label>
-        <Input
-          type={"text"}
-          id={"from_name"}
-          name={"from_name"}
-          placeholder={""}
-          required={true}
-        />
+      <div className="contact_form">
+        <form onSubmit={onSubmit}>
+          <h2>Formulaire de contact</h2>
 
-        <Label htmlFor={"subject"} className="labelform">
-          sujet :
-        </Label>
-        <Input
-          type={"text"}
-          id={"subject"}
-          name={"subject"}
-          placeholder={""}
-          required={true}
-        />
+          <Label htmlFor={"subject"} className="labelform">
+            <TbArrowBigRightLinesFilled size={25} className="contact_icon" />
+            Sujet du Contact:
+          </Label>
+          <Input
+            type={"text"}
+            id={"subject"}
+            name={"subject"}
+            placeholder={"Sujet du contact ..."}
+            required={true}
+          />
 
-        <Label htmlFor={"email"} className="labelform">
-          email :
-        </Label>
-        <Input
-          type={"email"}
-          id={"email"}
-          name={"email"}
-          placeholder={""}
-          required={true}
-        />
+          <Label htmlFor={"from_name"} className="labelform">
+            <TbArrowBigRightLinesFilled size={25} className="contact_icon" />
+            Votre Nom :
+          </Label>
+          <Input
+            type={"text"}
+            id={"from_name"}
+            name={"from_name"}
+            placeholder={"Votre nom ..."}
+            required={true}
+          />
 
-        <Label htmlFor={"message"} className="labelform">
-          message :
-        </Label>
-        <textarea id="message" name="message" placeholder="" required />
+          <Label htmlFor={"email"} className="labelform">
+            <TbArrowBigRightLinesFilled size={25} className="contact_icon" />
+            Votre Email :
+          </Label>
+          <Input
+            type={"email"}
+            id={"email"}
+            name={"email"}
+            placeholder={"Votre email ..."}
+            required={true}
+          />
 
-        <Button
-          type={"submit"}
-          className={"button contact_button"}
-          text={"Envoyer"}
-        />
-      </form>
+          <Label htmlFor={"message"} className="labelform">
+            <TbArrowBigRightLinesFilled size={25} className="contact_icon" />
+            Votre Message :
+          </Label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Votre message ..."
+            required
+          />
+
+          <Button
+            type={"submit"}
+            className={"button contact_button"}
+            text={"Envoyer"}
+          />
+        </form>
+      </div>
       {confirmSend && (
-        <p className={`confirmation-message ${confirmSendType}`}>
+        <p className={`confirmation_message ${confirmSendType}`}>
           {confirmSend}
+          {setTimeout(() => {
+            setConfirmSend("");
+            setConfirmSendType("");
+          }, 4000)}
         </p>
       )}
     </>
