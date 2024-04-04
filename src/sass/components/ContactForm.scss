@@ -3,36 +3,34 @@
 
 .contact_form {
   @include shadow;
-  background-color: $primary100_color;
-  border: 2px solid $fourth_color;
+  border: 2px solid $primary100_color;
   border-radius: 25px;
-  margin-bottom: 50px;
 
   form {
     width: 100%;
     max-width: 725px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 0 20px 50px 20px;
-    margin: 0 auto;
+    padding: 0 20px 80px 20px;
 
     h2 {
-      color: $secondary100_color;
+      color: $primary100_color;
       font-size: 2.5em;
       font-weight: 600;
       margin: 60px 0;
     }
 
     label {
-      color: $secondary100_color;
-      padding-left: 2px;
-      font-size: 1.25em;
-      font-weight: 500;
       display: flex;
       align-items: center;
       justify-content: flex-start;
       gap: 12px;
+      color: $primary100_color;
+      padding-left: 2px;
+      font-size: 1.25em;
+      font-weight: 600;
 
       .contact_icon {
         color: $fourth_color;
@@ -52,37 +50,44 @@
       }
     }
     input {
+      @include shadow_button;
       padding: 15px 10px;
-      border-radius: 10px;
       margin-bottom: 20px;
+      border-radius: 10px;
       outline: none;
-      border: 2px solid $fourth_color;
+      border: 1px solid $primary100_color;
     }
     textarea {
+      @include shadow_button;
       height: 100px;
       resize: none;
       border-radius: 10px;
       padding: 10px;
-      margin-bottom: 50px;
+      margin-bottom: 70px;
       outline: none;
-      border: 2px solid $fourth_color;
+      border: 1px solid $primary100_color;
     }
     .contact_button {
       width: 100%;
       max-width: 300px;
       margin: 0 auto;
+      background-color: $primary100_color;
+
+      &:hover {
+        background-color: $secondary100_color;
+      }
     }
   }
 }
 .confirmation_message {
   width: 100%;
   max-width: 500px;
-  margin: 20px auto;
   background-color: $primary100_color;
-  border: 2px solid $fourth_color;
-  border-radius: 20px;
-  padding: 20px;
   color: $secondary100_color;
-  font-size: 1.1em;
-  font-weight: 500;
+  border: 1px solid $fourth_color;
+  border-radius: 20px;
+  margin: 5px auto;
+  padding: 10px;
+  font-size: 1.05em;
+  font-weight: 400;
 }
