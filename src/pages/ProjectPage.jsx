@@ -56,9 +56,9 @@ const ProjectPage = () => {
                       <p>{item.title}</p>
                       <Link to={`/project/${item.pageId}`}>
                         <Button
-                          className="button_overlay"
-                          type="submit"
-                          text="Visiter"
+                          className={"button button_overlay"}
+                          type={"submit"}
+                          text={"Visiter"}
                         />
                       </Link>
                     </div>

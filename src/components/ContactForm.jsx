@@ -37,13 +37,13 @@ const ContactForm = () => {
 
         <Label htmlFor={"subject"} className="labelform">
           <TbArrowBigRightLinesFilled size={25} className="contact_icon" />
-          Sujet du Contact:
+          Sujet de la demande :
         </Label>
         <Input
           type={"text"}
           id={"subject"}
           name={"subject"}
-          placeholder={"Sujet du contact ..."}
+          placeholder={"Votre demande ..."}
           required={true}
         />
 

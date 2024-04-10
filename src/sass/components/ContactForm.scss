@@ -86,16 +86,6 @@
         color: $secondary100_color;
       }
     }
-    .contact_button {
-      width: 100%;
-      max-width: 300px;
-      margin: 0 auto;
-      background-color: $primary200_color;
-
-      &:hover {
-        background-color: $secondary100_color;
-      }
-    }
   }
 }
 .confirmation_message {

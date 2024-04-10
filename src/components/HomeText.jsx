@@ -11,11 +11,7 @@ const HomeText = () => {
       </div>
       <h5>Développeur Front-End</h5>
       <Link to="/contact">
-        <Button
-          className="button button_contact"
-          type="submit"
-          text="Contactez-moi"
-        />
+        <Button className={"button"} type={"submit"} text={"Contactez-moi"} />
       </Link>
     </div>
   );

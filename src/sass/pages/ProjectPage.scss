@@ -123,22 +123,6 @@
             font-size: 1.7em;
           }
         }
-        .button_overlay {
-          @include shadow_button;
-          color: $primary100_color;
-          font-size: 2em;
-          font-weight: 500;
-          background-color: transparent;
-          border: 2px solid $secondary100_color;
-          border-radius: 12px;
-          padding: 9px 70px;
-          transition: all 350ms ease;
-          cursor: pointer;
-          &:hover {
-            background-color: $primary200_color;
-            color: $secondary100_color;
-          }
-        }
       }
     }
   }
