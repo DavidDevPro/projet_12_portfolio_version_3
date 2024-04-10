@@ -1,0 +1,13 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  color: $primary_color;
+  padding-left: 2px;
+  font-size: 1.4em;
+  font-weight: 500;
+}

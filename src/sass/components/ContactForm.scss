@@ -23,57 +23,29 @@
       margin: 60px 0;
     }
 
-    label {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      gap: 12px;
-      color: $primary_color;
-      padding-left: 2px;
-      font-size: 1.4em;
-      font-weight: 500;
+    .contact_icon {
+      color: $fourth_color;
+      animation: contactIcon 1.5s ease-in-out infinite;
 
-      .contact_icon {
-        color: $fourth_color;
-        animation: contactIcon 1.5s ease-in-out infinite;
-
-        @keyframes contactIcon {
-          0% {
-            transform: translateX(0);
-          }
-          50% {
-            transform: translateX(5px);
-          }
-          100% {
-            transform: translateX(0);
-          }
+      @keyframes contactIcon {
+        0% {
+          transform: translateX(0);
+        }
+        50% {
+          transform: translateX(5px);
+        }
+        100% {
+          transform: translateX(0);
         }
       }
     }
-    input {
-      @include shadow_button;
-      height: 60px;
-      padding: 0 10px;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      font-size: 1.2em;
-      outline: none;
-      border: 2px solid $fourth_color;
-      background-color: $primary200_color;
-      color: $secondary100_color;
-      opacity: 0.96;
 
-      &::placeholder {
-        font-size: 0.8em;
-        color: $secondary100_color;
-      }
-    }
     textarea {
       @include shadow_button;
       font-size: 1.2em;
       height: 120px;
       resize: none;
-      border-radius: 10px;
+      border-radius: 15px;
       padding: 10px;
       margin-bottom: 70px;
       outline: none;
