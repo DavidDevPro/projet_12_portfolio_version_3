@@ -1,0 +1,26 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.one_project_section_link {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 50px 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+
+  &_button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .project_icon {
+      color: $fourth_color;
+      animation: contactIcon 1.5s ease-in-out infinite;
+      flex-shrink: 0;
+      font-size: 28px;
+    }
+  }
+}

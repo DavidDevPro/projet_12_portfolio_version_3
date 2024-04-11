@@ -1,7 +1,7 @@
 @import "../utils/mixins.scss";
 @import "../utils/variables.scss";
 
-.one_project_page_section {
+.one_project_section {
   padding: 50px 20px;
 
   h1,
@@ -20,13 +20,8 @@
     margin: 50px auto 30px;
     font-size: 2em;
   }
-  .content_project {
-    width: 100%;
-    max-width: 1240px;
-    border-radius: 20px;
-  }
 
-  &_content_tags {
+  &_tags {
     margin: 20px auto 50px;
     padding: 0px 25px;
     animation: delayCaroussel 1000ms ease;
@@ -61,61 +56,6 @@
         100% {
           transform: translateY(-4px);
         }
-      }
-    }
-  }
-  &_about_project {
-    @include shadow;
-    border: 2px solid $fourth_color;
-    background-color: $secondary200_color;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap: 30px;
-    color: $primary_color;
-    margin: 25px auto 0;
-    padding: 25px;
-    font-size: 1.15em;
-    font-weight: 500;
-
-    &_content {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-
-      &_icon {
-        color: $primary200_color;
-        animation: contactIcon 1.5s ease-in-out infinite;
-        flex-shrink: 0;
-        font-size: 28px;
-      }
-
-      p {
-        font-size: 1.1em;
-        line-height: 1.5em;
-      }
-    }
-  }
-  &_link {
-    width: 100%;
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 50px 25px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 75px;
-
-    &_button {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-
-      .project_icon {
-        color: $fourth_color;
-        animation: contactIcon 1.5s ease-in-out infinite;
-        flex-shrink: 0;
-        font-size: 28px;
       }
     }
   }
