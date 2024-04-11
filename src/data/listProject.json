@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id": "0",
     "filterId": 2,
     "pageId": "724events",
     "title": "Site 724 Events",
@@ -20,12 +20,12 @@
     ],
     "aboutText1": "Le débogage est une compétence essentielle pour tout développeur web, car il est crucial de pouvoir identifier et résoudre rapidement les problèmes dans le code.",
     "aboutText2": "La rédaction d'un cahier de recette et la réalisation de tests unitaires et fonctionnels sont également des pratiques importantes pour assurer la qualité et la fiabilité d'un site web.",
-    "aboutText3": "La maîtrise des outils tels que React Developer Tools, Yarn et Node.js enrichira votre boîte à outils de développeur et vous préparera à travailler sur des projets web complexes.",
+    "aboutText3": "La maîtrise des outils tels que React Developer Tools, npm et Node.js enrichi la boîte à outils de développeur et vous préparera à travailler sur des projets web complexes.",
     "github": "https://github.com/david-backup/projet_10_724events_exercices",
     "website": ""
   },
   {
-    "id": 1,
+    "id": "1",
     "filterId": 2,
     "pageId": "menu_maker",
     "title": "Site Qwenta",
@@ -47,7 +47,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": "2",
     "filterId": 2,
     "pageId": "nina_carducci",
     "title": "Site Nina Carducci",
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": "3",
     "filterId": 1,
     "pageId": "auto_street",
     "title": "Site Auto-Street",
@@ -87,7 +87,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": "4",
     "filterId": 1,
     "pageId": "argentbank",
     "title": "Site ArgentBank",
@@ -107,7 +107,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": "5",
     "filterId": 1,
     "pageId": "portfolio",
     "title": "Mon Portfolio",

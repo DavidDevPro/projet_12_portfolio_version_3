@@ -2,15 +2,16 @@ import dataProject from "../data/listProject.json";
 import HeadPages from "../components/HeadPages";
 import { FaFileWaveform } from "react-icons/fa6";
 import { PiArrowFatLinesDownFill } from "react-icons/pi";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Caroussel from "../components/Caroussel";
 import ProjectTags from "../components/ProjectTags";
 import ProjectSectionText from "../components/ProjectSectionText";
 import ProjectLinksSection from "../components/ProjectSectionLinks";
+import ScrollTo from "../components/ScrollTo";
 
 const OneProjectPage = () => {
   const { id } = useParams();
-  const data = dataProject.find((item) => item.pageId === id);
+  const data = dataProject.find((item) => item.id === id);
 
   return (
     <main>
@@ -29,11 +30,12 @@ const OneProjectPage = () => {
             ))}
           </div>
         </div>
-        <a href="/project/724events#move_text">
+        <Link to={`/project/${data.id}#move_text`}>
           <div className="scroll_button">
             <PiArrowFatLinesDownFill className="scroll_button_icon" />
           </div>
-        </a>
+        </Link>
+        <ScrollTo />
 
         <h2>{`A propos de ${data.pageId}`}</h2>
         <ProjectSectionText

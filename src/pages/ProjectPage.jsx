@@ -54,7 +54,7 @@ const ProjectPage = () => {
                   {index === hoveredValue && (
                     <div>
                       <p>{item.title}</p>
-                      <Link to={`/project/${item.pageId}`}>
+                      <Link to={`/project/${item.id}`}>
                         <Button
                           className={"button button_overlay"}
                           type={"submit"}
