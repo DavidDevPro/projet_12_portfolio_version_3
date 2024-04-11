@@ -4,16 +4,84 @@
 .one_project_page_section {
   padding: 50px 20px;
 
+  h1,
+  h2 {
+    color: $secondary100_color;
+    width: 100%;
+    max-width: 1240px;
+    font-weight: 500;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
+  }
   h1 {
+    margin: 0 auto;
+    font-size: 2.5em;
+  }
+  h2 {
+    margin: 100px auto 30px;
+    font-size: 2em;
+  }
+  .content_project {
+    @include shadow;
+    width: 100%;
+    max-width: 1240px;
+    background-color: $secondary200_color;
+    border: 2px solid $fourth_color;
+    border-radius: 20px;
+  }
+
+  &_content_tags {
+    margin: 20px auto 50px;
+    padding: 15px 25px 15px;
+    animation: delayCaroussel 1000ms ease;
+  }
+  &_about_project {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+    color: $primary_color;
+    margin: 25px auto 0;
+    padding: 25px;
+    font-size: 1.15em;
+    font-weight: 500;
+
+    &_content {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+
+      &_icon {
+        color: $primary200_color;
+        animation: contactIcon 1.5s ease-in-out infinite;
+        flex-shrink: 0;
+      }
+
+      p {
+        font-size: 1.1em;
+        line-height: 1.5em;
+      }
+    }
+  }
+  &_link {
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
-    color: $secondary100_color;
-    background-color: $primary100_color;
-    border: 2px solid $fourth_color;
-    padding: 6px 20px;
-    border-radius: 15px;
-    font-size: 2.3em;
-    font-weight: 500;
+    padding: 50px 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+
+    &_button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .project_icon {
+        color: $fourth_color;
+        animation: contactIcon 1.5s ease-in-out infinite;
+        flex-shrink: 0;
+      }
+    }
   }
 }

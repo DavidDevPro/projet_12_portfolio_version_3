@@ -4,7 +4,8 @@
 /****** bouton générique ******/
 .button,
 .button_overlay,
-.contact_button {
+.contact_button,
+.button_project {
   @include inter;
   @include shadow_button;
   font-weight: 500;
@@ -28,7 +29,7 @@
 
 /****** bouton overlay projectpage ******/
 .button_overlay {
-  color: $primary100_color;
+  color: $primary_color;
   background-color: transparent;
   border: 2px solid $secondary100_color;
   border-radius: 12px;
@@ -40,6 +41,19 @@
   }
 }
 
+/****** bouton onepageproject ******/
+.button_project {
+  background-color: $primary_color;
+  color: $secondary100_color;
+  border: 2px solid $fourth_color;
+  border-radius: 25px;
+  font-size: 1.2em;
+  padding: 8px 40px;
+  &:hover {
+    background-color: $secondary100_color;
+    color: $primary_color;
+  }
+}
 /****** bouton formulaire de contact ******/
 .contact_button {
   width: 100%;

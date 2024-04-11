@@ -15,8 +15,14 @@
     ],
     "tags": [
       "React",
-      "Débug"
-    ]
+      "Débug",
+      "Tests unitaires"
+    ],
+    "aboutText1": "Le débogage est une compétence essentielle pour tout développeur web, car il est crucial de pouvoir identifier et résoudre rapidement les problèmes dans le code.",
+    "aboutText2": "La rédaction d'un cahier de recette et la réalisation de tests unitaires et fonctionnels sont également des pratiques importantes pour assurer la qualité et la fiabilité d'un site web.",
+    "aboutText3": "La maîtrise des outils tels que React Developer Tools, Yarn et Node.js enrichira votre boîte à outils de développeur et vous préparera à travailler sur des projets web complexes.",
+    "github": "https://github.com/david-backup/projet_10_724events_exercices",
+    "website": ""
   },
   {
     "id": 1,
@@ -33,7 +39,12 @@
       "/src/assets/images_slider/menu_maker_6.webp",
       "/src/assets/images_slider/menu_maker_7.webp"
     ],
-    "tags": []
+    "tags": [
+      "Spécifications techniques",
+      "Veille technologique",
+      "Solution technique",
+      "Gestion de projet"
+    ]
   },
   {
     "id": 2,
@@ -51,7 +62,10 @@
       "/src/assets/images_slider/nina_7.webp",
       "/src/assets/images_slider/nina_8.webp"
     ],
-    "tags": []
+    "tags": [
+      "SEO",
+      "Performances"
+    ]
   },
   {
     "id": 3,
@@ -66,7 +80,11 @@
       "/src/assets/images_slider/auto_street_4.webp",
       "/src/assets/images_slider/auto_street_5.webp"
     ],
-    "tags": []
+    "tags": [
+      "React",
+      "Laravel",
+      "SQL"
+    ]
   },
   {
     "id": 4,
@@ -82,7 +100,11 @@
       "/src/assets/images_slider/argent_bank_5.webp",
       "/src/assets/images_slider/argent_bank_6.webp"
     ],
-    "tags": []
+    "tags": [
+      "React",
+      "Redux Toolkit",
+      "Swagger"
+    ]
   },
   {
     "id": 5,
@@ -95,6 +117,8 @@
       "/src/assets/images_slider/portfolio_2.webp",
       "/src/assets/images_slider/portfolio_3.webp"
     ],
-    "tags": []
+    "tags": [
+      "React"
+    ]
   }
 ]

@@ -6,7 +6,7 @@ header {
   height: 100px;
 
   .navigation {
-    background-color: $primary100_color;
+    background-color: $primary_color;
     width: 100%;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@ header {
           gap: 40px;
 
           &.active {
-            background-color: $primary100_color;
+            background-color: $primary_color;
             left: 0px;
             opacity: 1;
           }
@@ -98,7 +98,7 @@ header {
     @media screen and (max-width: 768px) {
       display: block;
       cursor: pointer;
-      color: $secondary_color;
+      color: $secondary100_color;
     }
   }
 }

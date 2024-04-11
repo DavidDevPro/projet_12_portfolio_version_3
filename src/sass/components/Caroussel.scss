@@ -6,7 +6,7 @@
   width: 100%;
   max-width: 1240px;
   height: 600px;
-  margin: 50px auto 50px;
+  margin: 50px auto 0px;
   position: relative;
   border-radius: 25px;
   animation: delayCaroussel 1000ms ease;
@@ -33,7 +33,7 @@
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    filter: drop-shadow(1px 1px 1px $primary100_color);
+    filter: drop-shadow(1px 1px 1px $primary_color);
   }
   .arrowLeft {
     left: 20px;
@@ -48,7 +48,7 @@
     left: 50%;
     transform: translateX(-50%);
     color: $secondary100_color;
-    background-color: $primary100_color;
+    background-color: $primary_color;
     font-size: 1.1em;
     font-weight: 600;
     padding: 7px 22px;
