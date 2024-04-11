@@ -7,6 +7,7 @@ import { useParams } from "react-router-dom";
 import Caroussel from "../components/Caroussel";
 import ProjectTags from "../components/ProjectTags";
 import Button from "../components/Button";
+import ProjectSectionText from "../components/ProjectSectionText";
 
 const OneProjectPage = () => {
   const { id } = useParams();
@@ -29,24 +30,17 @@ const OneProjectPage = () => {
             ))}
           </div>
         </div>
-        <div className="scroll_button">
-          <PiArrowFatLinesDownFill className="scroll_button_icon" />
-        </div>
+        <a href="/project/724events#move_text">
+          <div className="scroll_button">
+            <PiArrowFatLinesDownFill className="scroll_button_icon" />
+          </div>
+        </a>
+
         <h2>{`A propos de ${data.pageId}`}</h2>
-        <div className="content_project one_project_page_section_about_project">
-          <div className="one_project_page_section_about_project_content">
-            <TbArrowBigRightLinesFilled className="one_project_page_section_about_project_content_icon" />
-            <p>{data.aboutText1}</p>
-          </div>
-          <div className="one_project_page_section_about_project_content">
-            <TbArrowBigRightLinesFilled className="one_project_page_section_about_project_content_icon" />
-            <p>{data.aboutText2}</p>
-          </div>
-          <div className="one_project_page_section_about_project_content">
-            <TbArrowBigRightLinesFilled className="one_project_page_section_about_project_content_icon" />
-            <p>{data.aboutText3}</p>
-          </div>
-        </div>
+        <ProjectSectionText
+          aboutTexts={[data.aboutText1, data.aboutText2, data.aboutText3]}
+        />
+
         <div className="one_project_page_section_link">
           <div className="one_project_page_section_link_button">
             <TbArrowBigRightLinesFilled className="project_icon" />
@@ -58,7 +52,7 @@ const OneProjectPage = () => {
               />
             </a>
           </div>
-          <div className="one_project_page_section_link_button">
+          <div id="move_text" className="one_project_page_section_link_button">
             <TbArrowBigRightLinesFilled className="project_icon" />
             <a href={data.website} target="_blank" rel="noopener noreferrer">
               <Button
