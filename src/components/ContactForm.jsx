@@ -36,7 +36,7 @@ const ContactForm = () => {
         <h2>Formulaire de contact</h2>
 
         <Label htmlFor={"subject"} className="labelform">
-          <TbArrowBigRightLinesFilled size={25} className="contact_icon" />
+          <TbArrowBigRightLinesFilled className="contact_icon" />
           Sujet de la demande :
         </Label>
         <Input
@@ -48,7 +48,7 @@ const ContactForm = () => {
         />
 
         <Label htmlFor={"from_name"} className="labelform">
-          <TbArrowBigRightLinesFilled size={25} className="contact_icon" />
+          <TbArrowBigRightLinesFilled className="contact_icon" />
           Votre Nom :
         </Label>
         <Input
@@ -60,7 +60,7 @@ const ContactForm = () => {
         />
 
         <Label htmlFor={"email"} className="labelform">
-          <TbArrowBigRightLinesFilled size={25} className="contact_icon" />
+          <TbArrowBigRightLinesFilled className="contact_icon" />
           Votre Email :
         </Label>
         <Input
@@ -72,7 +72,7 @@ const ContactForm = () => {
         />
 
         <Label htmlFor={"message"} className="labelform">
-          <TbArrowBigRightLinesFilled size={25} className="contact_icon" />
+          <TbArrowBigRightLinesFilled className="contact_icon" />
           Votre Message :
         </Label>
         <textarea

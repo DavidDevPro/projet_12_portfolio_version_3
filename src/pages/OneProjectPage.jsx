@@ -2,6 +2,7 @@ import dataProject from "../data/listProject.json";
 import HeadPages from "../components/HeadPages";
 import { FaFileWaveform } from "react-icons/fa6";
 import { TbArrowBigRightLinesFilled } from "react-icons/tb";
+import { PiArrowFatLinesDownFill } from "react-icons/pi";
 import { useParams } from "react-router-dom";
 import Caroussel from "../components/Caroussel";
 import ProjectTags from "../components/ProjectTags";
@@ -28,33 +29,27 @@ const OneProjectPage = () => {
             ))}
           </div>
         </div>
+        <div className="scroll_button">
+          <PiArrowFatLinesDownFill className="scroll_button_icon" />
+        </div>
         <h2>{`A propos de ${data.pageId}`}</h2>
         <div className="content_project one_project_page_section_about_project">
           <div className="one_project_page_section_about_project_content">
-            <TbArrowBigRightLinesFilled
-              size={28}
-              className="one_project_page_section_about_project_content_icon"
-            />
+            <TbArrowBigRightLinesFilled className="one_project_page_section_about_project_content_icon" />
             <p>{data.aboutText1}</p>
           </div>
           <div className="one_project_page_section_about_project_content">
-            <TbArrowBigRightLinesFilled
-              size={28}
-              className="one_project_page_section_about_project_content_icon"
-            />
+            <TbArrowBigRightLinesFilled className="one_project_page_section_about_project_content_icon" />
             <p>{data.aboutText2}</p>
           </div>
           <div className="one_project_page_section_about_project_content">
-            <TbArrowBigRightLinesFilled
-              size={28}
-              className="one_project_page_section_about_project_content_icon"
-            />
+            <TbArrowBigRightLinesFilled className="one_project_page_section_about_project_content_icon" />
             <p>{data.aboutText3}</p>
           </div>
         </div>
         <div className="one_project_page_section_link">
           <div className="one_project_page_section_link_button">
-            <TbArrowBigRightLinesFilled size={28} className="project_icon" />
+            <TbArrowBigRightLinesFilled className="project_icon" />
             <a href={data.github} target="_blank" rel="noopener noreferrer">
               <Button
                 type={"submit"}
@@ -64,7 +59,7 @@ const OneProjectPage = () => {
             </a>
           </div>
           <div className="one_project_page_section_link_button">
-            <TbArrowBigRightLinesFilled size={28} className="project_icon" />
+            <TbArrowBigRightLinesFilled className="project_icon" />
             <a href={data.website} target="_blank" rel="noopener noreferrer">
               <Button
                 type={"submit"}
