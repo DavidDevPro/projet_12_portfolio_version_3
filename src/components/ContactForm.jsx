@@ -37,7 +37,7 @@ const ContactForm = () => {
 
         <Label htmlFor={"subject"} className="labelform">
           <TbArrowBigRightLinesFilled className="contact_icon" />
-          Sujet de la demande :
+          Objet de la demande :
         </Label>
         <Input
           type={"text"}
