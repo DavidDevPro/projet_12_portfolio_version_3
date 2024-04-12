@@ -38,12 +38,15 @@
     align-items: center;
     justify-content: center;
     margin: 60px auto 0;
+    transition: background-color 400ms ease-out;
+    &:hover {
+      background-color: $github_color;
+    }
 
     &_icon {
       color: $secondary100_color;
       font-size: 32px;
       flex-shrink: 0;
-
       animation: textIcon 1.5s ease-in-out infinite;
 
       @keyframes textIcon {

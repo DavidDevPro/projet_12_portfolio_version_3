@@ -18,16 +18,16 @@
       "Débug",
       "Tests unitaires"
     ],
-    "aboutText1": "Le débogage est une compétence essentielle pour tout développeur web, car il est crucial de pouvoir identifier et résoudre rapidement les problèmes dans le code.",
-    "aboutText2": "La rédaction d'un cahier de recette et la réalisation de tests unitaires et fonctionnels sont également des pratiques importantes pour assurer la qualité et la fiabilité d'un site web.",
-    "aboutText3": "La maîtrise des outils tels que React Developer Tools, npm et Node.js enrichi la boîte à outils de développeur et vous préparera à travailler sur des projets web complexes.",
+    "aboutText1": "Pour ce projet 724events, j'ai pris en charge le débogage et la finalisation du développement du site one-page d'une agence d'événementiel. J'ai utilisé les Chrome DevTools pour analyser le code existant et résoudre les bugs signalés, en mettant en œuvre mes compétences en JavaScript et en utilisant des outils spécifiques à React, comme React Developer Tools.",
+    "aboutText2": "En plus du débogage, j'ai complété le cahier de recette détaillant les scénarios de test nécessaires pour garantir le bon fonctionnement du site, y compris des tests unitaires et fonctionnels. Pour la gestion du projet, j'ai opté pour Yarn comme gestionnaire de packages et Node.js pour l'exécution du code côté serveur, facilitant ainsi la gestion des dépendances et l'exécution de tests locaux.",
+    "aboutText3": "En utilisant GitHub pour la gestion de version et Visual Studio Code comme éditeur de code, la qualité du travail a été maintenue à un haut niveau. Cette approche a permis d'assurer un développement et un débogage efficaces du site, tout en mettant en valeur mes compétences en débogage, rédaction de cahiers de recette et utilisation d'outils de développement. Ces compétences sont cruciales pour garantir la qualité et la fiabilité des sites web développés.",
     "github": "https://github.com/david-backup/projet_10_724events_exercices",
     "website": ""
   },
   {
     "id": "1",
     "filterId": 2,
-    "pageId": "menu_maker",
+    "pageId": "Menu-Maker",
     "title": "Site Qwenta",
     "cover": "/src/assets/images/menu_maker.webp",
     "pictures": [
@@ -44,12 +44,17 @@
       "Veille technologique",
       "Solution technique",
       "Gestion de projet"
-    ]
+    ],
+    "aboutText1": "Dans ce projet, j'ai été impliqué dans la planification du développement d'un site web pour un client. Mon rôle était de planifier le développement du site en utilisant la maquette, les spécifications fonctionnelles et les User Stories fournies. J'ai effectué une veille technologique pour rester informé des dernières tendances et technologies pertinentes, en utilisant un système de veille pour suivre les évolutions dans le domaine du développement web.",
+    "aboutText2": "J'ai rédigé les spécifications techniques du projet, en identifiant les besoins fonctionnels et en décomposant les fonctionnalités en tâches spécifiques. Pour organiser le projet de manière structurée et efficace, j'ai utilisé Notion, un outil de gestion de projet pour créer un tableau Kanban, ce qui m'a permis de suivre le déroulement du projet de manière proactive.",
+    "aboutText3": "Ces compétences en planification et gestion de projets sont essentielles dans le domaine du développement web, surtout dans une approche agile. La capacité à traduire les besoins fonctionnels en spécifications techniques et à organiser méthodiquement le travail est cruciale pour le succès des projets informatiques. De plus, la maîtrise des outils de veille technologique et de gestion de projet, ainsi que la capacité à présenter des solutions techniques de manière claire et concise, sont indispensables pour le développement agile moderne.",
+    "github": "https://github.com/david-backup/projet-7-qwenta",
+    "website": ""
   },
   {
     "id": "2",
     "filterId": 2,
-    "pageId": "nina_carducci",
+    "pageId": "Nina-Carducci",
     "title": "Site Nina Carducci",
     "cover": "/src/assets/images/nina_cover.webp",
     "pictures": [
@@ -64,13 +69,19 @@
     ],
     "tags": [
       "SEO",
-      "Performances"
-    ]
+      "Performances",
+      "Accessibilité"
+    ],
+    "aboutText1": "Dans ce projet, j'ai optimisé le référencement d'un site en améliorant sa performance et son accessibilité. Ma première tâche a été d'identifier les problèmes de chargement et de référencement, puis de proposer des recommandations pour améliorer la vitesse de chargement, la structure du code et le référencement. Pour cela, j'ai utilisé des outils spécialisés tels que Lighthouse et Wave, qui m'ont permis d'analyser et d'identifier efficacement les problèmes.",
+    "aboutText2": "Ces compétences en optimisation du référencement (SEO) et en accessibilité ont été cruciales dans ce projet, car elles ont contribué à améliorer la visibilité et l'accessibilité du site, entraînant ainsi une augmentation du trafic et de la portée. De plus, ma capacité à analyser et à améliorer les performances du site a eu un impact direct sur l'expérience utilisateur et la satisfaction des clients.",
+    "aboutText3": "Pour mener à bien ce projet, j'ai également utilisé des méthodes spécifiques telles que l'optimisation globale du site, l'utilisation de Schema.org pour le référencement local, l'ajout de métadonnées pour les réseaux sociaux, et j'ai effectué des modifications liées à l'accessibilité du site. Enfin, j'ai produit un rapport d'optimisation détaillant toutes mes actions et leur impact sur la performance, le référencement et l'accessibilité du site.",
+    "github": "https://github.com/david-backup/projet-9-nina-carducci",
+    "website": ""
   },
   {
     "id": "3",
     "filterId": 1,
-    "pageId": "auto_street",
+    "pageId": "Auto-Street",
     "title": "Site Auto-Street",
     "cover": "/src/assets/images/auto_street_cover.webp",
     "pictures": [
@@ -82,6 +93,7 @@
     ],
     "tags": [
       "React",
+      "Sass",
       "Laravel",
       "SQL"
     ]
@@ -89,7 +101,7 @@
   {
     "id": "4",
     "filterId": 1,
-    "pageId": "argentbank",
+    "pageId": "ArgentBank",
     "title": "Site ArgentBank",
     "cover": "/src/assets/images/argentbank_cover.webp",
     "pictures": [
@@ -102,14 +114,20 @@
     ],
     "tags": [
       "React",
+      "Sass",
       "Redux Toolkit",
       "Swagger"
-    ]
+    ],
+    "aboutText1": "Dans ce projet, j'ai travaillé sur le développement front-end d'une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive. Ma mission principale a été d'intégrer le front-end avec le back-end via des appels API, en écrivant des appels à l'API REST pour assurer une communication fluide entre le client et le serveur.",
+    "aboutText2": "J'ai utilisé React pour développer l'interface utilisateur de l'application bancaire, en me concentrant sur la création d'un tableau de bord complet et réactif pour les utilisateurs. Redux a été utilisé pour gérer les données de l'application, assurant ainsi un état global cohérent à travers l'application. Pour définir les points d'accès de l'API et modéliser les interactions avec les données des transactions, j'ai utilisé Swagger, ce qui a facilité la documentation et la maintenabilité de l'interface de programmation.",
+    "aboutText3": "React, Redux et Swagger sont d'excellents choix pour développer un front-end moderne, surtout pour ceux travaillant sur des applications web complexes. Ces outils permettent d'assurer la clarté et la maintenabilité de l'interface de programmation, tout en garantissant le bon fonctionnement de l'application.",
+    "github": "https://github.com/david-backup/projet_11_ArgentBank",
+    "website": "https://david-backup.github.io/projet_11_ArgentBank/"
   },
   {
     "id": "5",
     "filterId": 1,
-    "pageId": "portfolio",
+    "pageId": "Portfolio",
     "title": "Mon Portfolio",
     "cover": "/src/assets/images/portfolio_cover.webp",
     "pictures": [
@@ -118,7 +136,8 @@
       "/src/assets/images_slider/portfolio_3.webp"
     ],
     "tags": [
-      "React"
+      "React",
+      "Sass"
     ]
   }
 ]

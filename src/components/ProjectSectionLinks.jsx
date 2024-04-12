@@ -24,8 +24,8 @@ const ProjectSectionLinks = ({ links }) => {
 ProjectSectionLinks.propTypes = {
   links: PropTypes.arrayOf(
     PropTypes.shape({
-      url: PropTypes.string.isRequired,
-      text: PropTypes.string.isRequired,
+      url: PropTypes.string,
+      text: PropTypes.string,
     })
   ).isRequired,
 };
