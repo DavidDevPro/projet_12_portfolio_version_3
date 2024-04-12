@@ -1,18 +1,32 @@
+import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
 import ContactText from "../components/ContactText";
 import HeadPages from "../components/HeadPages";
 import { MdAlternateEmail } from "react-icons/md";
+import { PiArrowFatLinesDownFill } from "react-icons/pi";
+import img from "../assets/images/homeBanner.webp";
+import ScrollTo from "../components/ScrollTo";
 
 const ContactPage = () => {
   return (
     <main>
-      <HeadPages headText={"Contact"} icon={<MdAlternateEmail size={45} />} />
-      <section className="contact_section">
-        <ContactText />
-      </section>
-      <section className="contact_section_form">
-        <ContactForm />
-      </section>
+      <div className="main">
+        <img src={img} alt="" />
+        <HeadPages headText={"Contact"} icon={<MdAlternateEmail size={45} />} />
+        <section className="contact_section">
+          <ContactText />
+        </section>
+        <Link to={`/contact#move_text2`}>
+          <div className="scroll_button">
+            <PiArrowFatLinesDownFill className="scroll_button_icon" />
+          </div>
+        </Link>
+        <ScrollTo />
+        <section className="contact_section_form">
+          <ContactForm />
+          <div id="move_text2"></div>
+        </section>
+      </div>
     </main>
   );
 };

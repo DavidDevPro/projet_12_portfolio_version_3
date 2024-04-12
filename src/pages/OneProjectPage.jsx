@@ -39,7 +39,12 @@ const OneProjectPage = () => {
 
         <h2>{`A propos de ${data.pageId}`}</h2>
         <ProjectSectionText
-          aboutTexts={[data.aboutText1, data.aboutText2, data.aboutText3]}
+          aboutTexts={[
+            data.aboutText1,
+            data.aboutText2,
+            data.aboutText3,
+            data.aboutText4,
+          ]}
         />
 
         <ProjectLinksSection

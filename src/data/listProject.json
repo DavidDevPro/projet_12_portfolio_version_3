@@ -119,8 +119,9 @@
       "Swagger"
     ],
     "aboutText1": "Dans ce projet, j'ai travaillé sur le développement front-end d'une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive. Ma mission principale a été d'intégrer le front-end avec le back-end via des appels API, en écrivant des appels à l'API REST pour assurer une communication fluide entre le client et le serveur.",
-    "aboutText2": "J'ai utilisé React pour développer l'interface utilisateur de l'application bancaire, en me concentrant sur la création d'un tableau de bord complet et réactif pour les utilisateurs. Redux a été utilisé pour gérer les données de l'application, assurant ainsi un état global cohérent à travers l'application. Pour définir les points d'accès de l'API et modéliser les interactions avec les données des transactions, j'ai utilisé Swagger, ce qui a facilité la documentation et la maintenabilité de l'interface de programmation.",
-    "aboutText3": "React, Redux et Swagger sont d'excellents choix pour développer un front-end moderne, surtout pour ceux travaillant sur des applications web complexes. Ces outils permettent d'assurer la clarté et la maintenabilité de l'interface de programmation, tout en garantissant le bon fonctionnement de l'application.",
+    "aboutText2": "J'ai utilisé React pour développer l'interface utilisateur de l'application bancaire, en me concentrant sur la création d'un tableau de bord complet et réactif pour les utilisateurs. Redux a été utilisé pour gérer les données de l'application, assurant ainsi un état global cohérent à travers l'application.",
+    "aboutText3": " Pour définir les points d'accès de l'API et modéliser les interactions avec les données des transactions, j'ai utilisé Swagger, ce qui a facilité la documentation et la maintenabilité de l'interface de programmation.",
+    "aboutText4": "React, Redux et Swagger sont d'excellents choix pour développer un front-end moderne, surtout pour ceux travaillant sur des applications web complexes. Ces outils permettent d'assurer la clarté et la maintenabilité de l'interface de programmation, tout en garantissant le bon fonctionnement de l'application.",
     "github": "https://github.com/david-backup/projet_11_ArgentBank",
     "website": "https://david-backup.github.io/projet_11_ArgentBank/"
   },
