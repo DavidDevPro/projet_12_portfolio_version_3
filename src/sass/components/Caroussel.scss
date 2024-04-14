@@ -56,4 +56,26 @@
     border-radius: 25px;
     opacity: 0.98;
   }
+  .slide_dots {
+    height: 25px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+
+    .slide_dot {
+      @include shadow_button;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-color: $secondary100_color;
+      border: 2px solid $fourth_color;
+      border-radius: 50%;
+    }
+
+    .active {
+      background-color: $primary_color;
+    }
+  }
 }

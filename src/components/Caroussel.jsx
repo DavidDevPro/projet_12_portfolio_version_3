@@ -17,6 +17,10 @@ const Caroussel = ({ slides }) => {
       return newIndex;
     });
   };
+
+  const handleDotClick = (index) => {
+    setCurrentIndex(index);
+  };
   {
     /*  
   useEffect(() => {
@@ -50,7 +54,15 @@ const Caroussel = ({ slides }) => {
       <div className="slide_indicator">
         {`${currentIndex + 1} / ${numSlides}`}
       </div>
-      <div className="slide_dots"></div>
+      <div className="slide_dots">
+      {slides.map((_, index) => (
+          <div
+            key={index}
+            className={`slide_dot ${index === currentIndex ? 'active' : ''}`}
+            onClick={() => handleDotClick(index)}
+          ></div>
+        ))}
+      </div>
     </div>
   );
 };
