@@ -50,6 +50,7 @@ const Caroussel = ({ slides }) => {
       <div className="slide_indicator">
         {`${currentIndex + 1} / ${numSlides}`}
       </div>
+      <div className="slide_dots"></div>
     </div>
   );
 };
