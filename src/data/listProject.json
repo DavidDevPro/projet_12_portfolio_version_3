@@ -6,12 +6,12 @@
     "title": "Site 724 Events",
     "cover": "./images/724_events.webp",
     "pictures": [
-      "/images/724_events_1.webp",
-      "/images/724_events_2.webp",
-      "/images/724_events_3.webp",
-      "/images/724_events_4.webp",
-      "/images/724_events_5.webp",
-      "/images/724_events_6.webp"
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/724_events_1.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/724_events_2.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/724_events_3.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/724_events_4.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/724_events_5.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/724_events_6.webp"
     ],
     "tags": [
       "React",
@@ -31,13 +31,13 @@
     "title": "Site Qwenta",
     "cover": "./images/menu_maker.webp",
     "pictures": [
-      "/images/menu_maker_1.webp",
-      "/images/menu_maker_2.webp",
-      "/images/menu_maker_3.webp",
-      "/images/menu_maker_4.webp",
-      "/images/menu_maker_5.webp",
-      "/images/menu_maker_6.webp",
-      "/images/menu_maker_7.webp"
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/menu_maker_1.webp",
+      "/https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/menu_maker_2.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/menu_maker_3.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/menu_maker_4.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/menu_maker_5.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/menu_maker_6.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/menu_maker_7.webp"
     ],
     "tags": [
       "Spécifications techniques",
@@ -58,14 +58,14 @@
     "title": "Site Nina Carducci",
     "cover": "./images/nina_cover.webp",
     "pictures": [
-      "/images/nina_1.webp",
-      "/images/nina_2.webp",
-      "/images/nina_3.webp",
-      "/images/nina_4.webp",
-      "/images/nina_5.webp",
-      "/images/nina_6.webp",
-      "/images/nina_7.webp",
-      "/images/nina_8.webp"
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/nina_1.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/nina_2.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/nina_3.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/nina_4.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/nina_5.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/nina_6.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/nina_7.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/nina_8.webp"
     ],
     "tags": [
       "SEO",
@@ -85,11 +85,11 @@
     "title": "Site Auto-Street",
     "cover": "./images/auto_street_cover.webp",
     "pictures": [
-      "/images/auto_street_1.webp",
-      "/images/auto_street_2.webp",
-      "/images/auto_street_3.webp",
-      "/images/auto_street_4.webp",
-      "/images/auto_street_5.webp"
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/auto_street_1.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/auto_street_2.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/auto_street_3.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/auto_street_4.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/auto_street_5.webp"
     ],
     "tags": [
       "React",
@@ -105,12 +105,12 @@
     "title": "Site ArgentBank",
     "cover": "./images/argentbank_cover.webp",
     "pictures": [
-      "/images/argent_bank_1.webp",
-      "/images/argent_bank_2.webp",
-      "/images/argent_bank_3.webp",
-      "/images/argent_bank_4.webp",
-      "/images/argent_bank_5.webp",
-      "/images/argent_bank_6.webp"
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/argent_bank_1.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/argent_bank_2.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/argent_bank_3.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/argent_bank_4.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/argent_bank_5.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/argent_bank_6.webp"
     ],
     "tags": [
       "React",
@@ -132,9 +132,9 @@
     "title": "Mon Portfolio",
     "cover": "./images/portfolio_cover.webp",
     "pictures": [
-      "/images/portfolio_1.webp",
-      "/images/portfolio_2.webp",
-      "/images/portfolio_3.webp"
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/portfolio_1.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/portfolio_2.webp",
+      "https://raw.githubusercontent.com/david-backup/projet_12_portfolio_version_3/gh-pages/images/portfolio_3.webp"
     ],
     "tags": [
       "React",

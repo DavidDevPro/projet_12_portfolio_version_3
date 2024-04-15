@@ -9,7 +9,7 @@ import ContactPage from "./pages/ContactPage";
 
 const App = () => {
 
-  const basename = import.meta.env.MODE === "production" ? "/projet_12_portfolio_version_3/" : "";
+  const basename = import.meta.env.MODE === "production" ? "/projet_12_portfolio_version_3" : "";
   return (
     <>
       <Router basename={basename}>
