@@ -8,9 +8,11 @@ import OneProjectPage from "./pages/OneProjectPage";
 import ContactPage from "./pages/ContactPage";
 
 const App = () => {
+
+  const basename = import.meta.env.MODE === "production" ? "/projet_12_portfolio_version_3/" : "";
   return (
     <>
-      <Router>
+      <Router basename={basename}>
         {/* Header Navigation*/}
         <Header />
         <Routes>
