@@ -1,4 +1,4 @@
-import srcBanner from "../assets/images/homeBanner.webp";
+import srcBanner from "/images/homeBanner.webp";
 import HomeBanner from "../components/HomeBanner";
 import HomeText from "../components/HomeText";
 

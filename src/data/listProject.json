@@ -4,14 +4,14 @@
     "filterId": 2,
     "pageId": "724events",
     "title": "Site 724 Events",
-    "cover": "/src/assets/images/724_events.webp",
+    "cover": "./images/724_events.webp",
     "pictures": [
-      "/src/assets/images_slider/724_events_1.webp",
-      "/src/assets/images_slider/724_events_2.webp",
-      "/src/assets/images_slider/724_events_3.webp",
-      "/src/assets/images_slider/724_events_4.webp",
-      "/src/assets/images_slider/724_events_5.webp",
-      "/src/assets/images_slider/724_events_6.webp"
+      "/images/724_events_1.webp",
+      "/images/724_events_2.webp",
+      "/images/724_events_3.webp",
+      "/images/724_events_4.webp",
+      "/images/724_events_5.webp",
+      "/images/724_events_6.webp"
     ],
     "tags": [
       "React",
@@ -29,15 +29,15 @@
     "filterId": 2,
     "pageId": "Menu-Maker",
     "title": "Site Qwenta",
-    "cover": "/src/assets/images/menu_maker.webp",
+    "cover": "./images/menu_maker.webp",
     "pictures": [
-      "/src/assets/images_slider/menu_maker_1.webp",
-      "/src/assets/images_slider/menu_maker_2.webp",
-      "/src/assets/images_slider/menu_maker_3.webp",
-      "/src/assets/images_slider/menu_maker_4.webp",
-      "/src/assets/images_slider/menu_maker_5.webp",
-      "/src/assets/images_slider/menu_maker_6.webp",
-      "/src/assets/images_slider/menu_maker_7.webp"
+      "/images/menu_maker_1.webp",
+      "/images/menu_maker_2.webp",
+      "/images/menu_maker_3.webp",
+      "/images/menu_maker_4.webp",
+      "/images/menu_maker_5.webp",
+      "/images/menu_maker_6.webp",
+      "/images/menu_maker_7.webp"
     ],
     "tags": [
       "Spécifications techniques",
@@ -56,16 +56,16 @@
     "filterId": 2,
     "pageId": "Nina-Carducci",
     "title": "Site Nina Carducci",
-    "cover": "/src/assets/images/nina_cover.webp",
+    "cover": "./images/nina_cover.webp",
     "pictures": [
-      "/src/assets/images_slider/nina_1.webp",
-      "/src/assets/images_slider/nina_2.webp",
-      "/src/assets/images_slider/nina_3.webp",
-      "/src/assets/images_slider/nina_4.webp",
-      "/src/assets/images_slider/nina_5.webp",
-      "/src/assets/images_slider/nina_6.webp",
-      "/src/assets/images_slider/nina_7.webp",
-      "/src/assets/images_slider/nina_8.webp"
+      "/images/nina_1.webp",
+      "/images/nina_2.webp",
+      "/images/nina_3.webp",
+      "/images/nina_4.webp",
+      "/images/nina_5.webp",
+      "/images/nina_6.webp",
+      "/images/nina_7.webp",
+      "/images/nina_8.webp"
     ],
     "tags": [
       "SEO",
@@ -83,13 +83,13 @@
     "filterId": 1,
     "pageId": "Auto-Street",
     "title": "Site Auto-Street",
-    "cover": "/src/assets/images/auto_street_cover.webp",
+    "cover": "./images/auto_street_cover.webp",
     "pictures": [
-      "/src/assets/images_slider/auto_street_1.webp",
-      "/src/assets/images_slider/auto_street_2.webp",
-      "/src/assets/images_slider/auto_street_3.webp",
-      "/src/assets/images_slider/auto_street_4.webp",
-      "/src/assets/images_slider/auto_street_5.webp"
+      "/images/auto_street_1.webp",
+      "/images/auto_street_2.webp",
+      "/images/auto_street_3.webp",
+      "/images/auto_street_4.webp",
+      "/images/auto_street_5.webp"
     ],
     "tags": [
       "React",
@@ -103,14 +103,14 @@
     "filterId": 1,
     "pageId": "ArgentBank",
     "title": "Site ArgentBank",
-    "cover": "/src/assets/images/argentbank_cover.webp",
+    "cover": "./images/argentbank_cover.webp",
     "pictures": [
-      "/src/assets/images_slider/argent_bank_1.webp",
-      "/src/assets/images_slider/argent_bank_2.webp",
-      "/src/assets/images_slider/argent_bank_3.webp",
-      "/src/assets/images_slider/argent_bank_4.webp",
-      "/src/assets/images_slider/argent_bank_5.webp",
-      "/src/assets/images_slider/argent_bank_6.webp"
+      "/images/argent_bank_1.webp",
+      "/images/argent_bank_2.webp",
+      "/images/argent_bank_3.webp",
+      "/images/argent_bank_4.webp",
+      "/images/argent_bank_5.webp",
+      "/images/argent_bank_6.webp"
     ],
     "tags": [
       "React",
@@ -130,11 +130,11 @@
     "filterId": 1,
     "pageId": "Portfolio",
     "title": "Mon Portfolio",
-    "cover": "/src/assets/images/portfolio_cover.webp",
+    "cover": "./images/portfolio_cover.webp",
     "pictures": [
-      "/src/assets/images_slider/portfolio_1.webp",
-      "/src/assets/images_slider/portfolio_2.webp",
-      "/src/assets/images_slider/portfolio_3.webp"
+      "/images/portfolio_1.webp",
+      "/images/portfolio_2.webp",
+      "/images/portfolio_3.webp"
     ],
     "tags": [
       "React",

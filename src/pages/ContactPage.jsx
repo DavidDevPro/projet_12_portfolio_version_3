@@ -4,7 +4,7 @@ import ContactText from "../components/ContactText";
 import HeadPages from "../components/HeadPages";
 import { MdAlternateEmail } from "react-icons/md";
 import { PiArrowFatLinesDownFill } from "react-icons/pi";
-import img from "../assets/images/homeBanner.webp";
+import img from "/images/homeBanner.webp";
 import ScrollTo from "../components/ScrollTo";
 
 const ContactPage = () => {

@@ -22,14 +22,14 @@ const Caroussel = ({ slides }) => {
     setCurrentIndex(index);
   };
   {
-    /*  
+      
   useEffect(() => {
     const intervalId = setInterval(() => {
       updateIndex(1);
     }, 5000);
     return () => clearInterval(intervalId);
   }, []); 
-    */
+    
   }
 
   return (
