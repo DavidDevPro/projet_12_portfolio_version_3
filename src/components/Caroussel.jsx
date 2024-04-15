@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
-import arrowRight from "../assets/images/arrowRight.svg";
-import arrowLeft from "../assets/images/arrowLeft.svg";
+import { PiArrowFatLinesLeft } from "react-icons/pi";
+import { PiArrowFatLinesRight } from "react-icons/pi";
 
 const Caroussel = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,16 +39,12 @@ const Caroussel = ({ slides }) => {
         src={currentSlide}
         alt={`Slide ${currentIndex + 1}`}
       />
-      <img
+      <PiArrowFatLinesLeft
         className="arrow arrowLeft"
-        src={arrowLeft}
-        alt="Flèche gauche de navigation des slides"
         onClick={() => updateIndex(-1)}
       />
-      <img
+      <PiArrowFatLinesRight
         className="arrow arrowRight"
-        src={arrowRight}
-        alt="Flèche droite de navigation des slides"
         onClick={() => updateIndex(1)}
       />
       <div className="slide_indicator">
