@@ -9,6 +9,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
 
   .about {
     width: 60%;
@@ -17,11 +20,19 @@
     text-align: left;
     padding: 50px 30px 0 0;
     gap: 35px;
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      text-align: center;
+      padding: 50px 0;
+    }
 
     h3 {
       color: $primary_color;
       font-size: 2.6em;
       font-weight: 600;
+      @media screen and (max-width: 768px) {
+        font-size: 2em;
+      }
     }
 
     &_text {
@@ -39,6 +50,12 @@
         line-height: 1.3em;
         font-size: 1.25em;
         letter-spacing: 0.15px;
+        @media screen and (max-width: 768px) {
+          gap: 35px;
+          font-size: 1.1em;
+          letter-spacing: 0.6px;
+          line-height: 1.2em;
+        }
       }
     }
     &_infos {
@@ -50,6 +67,10 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+        @media screen and (max-width: 1024px) {
+          align-items: center;
+          gap: 25px;
+        }
 
         li {
           display: flex;
@@ -57,6 +78,11 @@
           color: $secondary100_color;
           line-height: 1.3em;
           font-size: 1.25em;
+          @media screen and (max-width: 1024px) {
+            flex-direction: column;
+            line-height: 1em;
+            gap: 5px;
+          }
 
           .title {
             color: $primary_color;
@@ -72,6 +98,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      margin: 75px auto;
+    }
 
     &_content {
       width: 350px;
@@ -81,6 +111,10 @@
       border-radius: 50%;
       border: 1.5px solid $fourth_color;
       animation: rotation 20s linear 1s infinite;
+      @media screen and (max-width: 768px) {
+        width: 280px;
+        height: 280px;
+      }
 
       @keyframes rotation {
         100% {
@@ -95,7 +129,7 @@
         left: 41%;
         transform: rotate(15deg);
         @media screen and (max-width: 768px) {
-          top: -12%;
+          top: -17.5%;
           left: 40%;
         }
       }
@@ -105,8 +139,8 @@
         top: 37%;
         right: -11.5%;
         @media screen and (max-width: 768px) {
-          top: 40%;
-          right: -11%;
+          top: 35%;
+          right: -14%;
         }
       }
       div:nth-child(3) {
@@ -116,7 +150,7 @@
         left: 41%;
         transform: rotate(180deg);
         @media screen and (max-width: 768px) {
-          bottom: -11%;
+          bottom: -13%;
           left: 40%;
         }
       }
@@ -124,11 +158,11 @@
         color: $nodejs_color;
         position: absolute;
         top: 38%;
-        left: -11%;
+        left: -15%;
         transform: rotate(-90deg);
         @media screen and (max-width: 768px) {
-          top: 40%;
-          left: -11%;
+          top: 35%;
+          left: -13%;
         }
       }
       div:nth-child(5) {
@@ -137,10 +171,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        @media screen and (max-width: 768px) {
-          top: 40%;
-          left: -11%;
-        }
       }
     }
   }
