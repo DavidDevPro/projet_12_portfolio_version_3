@@ -16,6 +16,14 @@
     border-radius: 30px;
     border: 1px dashed $fourth_color;
     padding: 4px 4px 0px;
+    transition: display 300ms ease-out, flex-direction 300ms ease-out,
+      padding 300ms ease-out, border 300ms ease-out;
+    @media screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid $primary_color;
+    }
     li {
       display: inline-block;
       position: relative;
@@ -25,6 +33,11 @@
       padding: 11px 23px;
       cursor: pointer;
       overflow: hidden;
+      transition: font-size 300ms ease-out, padding 300ms ease;
+      @media screen and (max-width: 768px) {
+        font-size: 1.05em;
+        padding: 9px 20px;
+      }
 
       &.active {
         background-color: $primary_color;
@@ -33,6 +46,9 @@
         border-radius: 25px;
         opacity: 0.96;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.55);
+        @media screen and (max-width: 768px) {
+          border: 2px solid $fourth_color;
+        }
       }
     }
   }
@@ -42,7 +58,8 @@
     grid-auto-rows: auto;
     gap: 30px;
     margin-top: 30px;
-    @media screen and (max-width: 1024px) {
+    transition: grid-template-columns repeat 300ms ease-out;
+    @media screen and (max-width: 1240px) {
       grid-template-columns: repeat(2, 1fr);
     }
     @media screen and (max-width: 768px) {
