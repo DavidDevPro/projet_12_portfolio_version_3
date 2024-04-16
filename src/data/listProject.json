@@ -76,7 +76,7 @@
     "aboutText2": "Ces compétences en optimisation du référencement (SEO) et en accessibilité ont été cruciales dans ce projet, car elles ont contribué à améliorer la visibilité et l'accessibilité du site, entraînant ainsi une augmentation du trafic et de la portée. De plus, ma capacité à analyser et à améliorer les performances du site a eu un impact direct sur l'expérience utilisateur et la satisfaction des clients.",
     "aboutText3": "Pour mener à bien ce projet, j'ai également utilisé des méthodes spécifiques telles que l'optimisation globale du site, l'utilisation de Schema.org pour le référencement local, l'ajout de métadonnées pour les réseaux sociaux, et j'ai effectué des modifications liées à l'accessibilité du site. Enfin, j'ai produit un rapport d'optimisation détaillant toutes mes actions et leur impact sur la performance, le référencement et l'accessibilité du site.",
     "github": "https://github.com/david-backup/projet-9-nina-carducci",
-    "website": ""
+    "website": "https://david-backup.github.io/projet-9-nina-carducci/"
   },
   {
     "id": "3",
@@ -96,7 +96,9 @@
       "Sass",
       "Laravel",
       "SQL"
-    ]
+    ],
+    "github": "https://github.com/david-backup/projet_auto-street_react",
+    "website": "https://david-backup.github.io/projet_auto-street_react/"
   },
   {
     "id": "4",
@@ -139,6 +141,8 @@
     "tags": [
       "React",
       "Sass"
-    ]
+    ],
+    "github": "https://github.com/david-backup/projet_12_portfolio_version_3",
+    "website": "https://david-backup.github.io/projet_12_portfolio_version_3/"
   }
 ]

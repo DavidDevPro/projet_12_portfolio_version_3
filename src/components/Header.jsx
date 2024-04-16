@@ -10,6 +10,11 @@ const Header = () => {
   const handleToggleIcon = () => {
     setToggleIcon(!toggleIcon);
   };
+
+  const handleClick = () => {
+    setToggleIcon(false);
+};
+
   return (
     <header>
       <nav className="navigation">
@@ -26,6 +31,7 @@ const Header = () => {
               <Link
                 to={item.link}
                 className="navigation_container_menu_item_links"
+                onClick={handleClick}
               >
                 {item.label}
               </Link>
