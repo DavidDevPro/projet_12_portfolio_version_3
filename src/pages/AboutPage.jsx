@@ -15,7 +15,7 @@ const AboutPage = () => {
     <main>
       <HeadPages
         headText="A propos de moi"
-        icon={<BsInfoCircleFill size={45} />}
+        icon={<BsInfoCircleFill />}
       />
       <section className="main_about_section">
         <div className="about">

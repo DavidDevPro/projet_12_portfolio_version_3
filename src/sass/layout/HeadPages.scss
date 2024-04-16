@@ -12,10 +12,25 @@
     color: $fourth_color;
     font-size: 2.2em;
     font-weight: 600;
+    transition: font-size 300ms ease-out;
+    @media screen and (max-width: 768px) {
+      font-size: 2em;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 1.6em;
+    }
   }
   span {
     svg {
       color: $fourth_color;
+      font-size: 45px;
+      transition: font-size 300ms ease-out;
+      @media screen and (max-width: 768px) {
+        font-size: 35px;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 28px;
+      }
     }
   }
 }

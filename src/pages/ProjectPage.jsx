@@ -24,7 +24,7 @@ const ProjectPage = () => {
       : dataProject.filter((item) => item.filterId === filteredId);
   return (
     <main>
-      <HeadPages headText="Mes projets" icon={<FaDev size={45} />} />
+      <HeadPages headText="Mes projets" icon={<FaDev />} />
       <section>
         <div className="filter">
           <ul className="filter_items">

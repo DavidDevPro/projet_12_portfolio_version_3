@@ -12,7 +12,7 @@ const ContactPage = () => {
     <main>
       <div className="main">
         <img src={img} alt="" />
-        <HeadPages headText={"Contact"} icon={<MdAlternateEmail size={45} />} />
+        <HeadPages headText={"Contact"} icon={<MdAlternateEmail/>} />
         <section className="contact_section">
           <ContactText />
         </section>

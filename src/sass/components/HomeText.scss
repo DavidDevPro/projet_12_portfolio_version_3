@@ -11,22 +11,44 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 30px;
+  transition: align-items 300ms ease-out;
+  @media screen and (max-width: 768px) {
+    align-items: center;
+  }
 
   h2 {
     font-size: 2.5em;
     font-weight: 300;
+    transition: font-size 300ms ease-out;
+    @media screen and (max-width: 450px) {
+      font-size: 2em;
+    }
   }
   &_name {
     display: flex;
     gap: 15px;
     font-size: 4em;
+    transition: font-size 300ms ease-out;
 
     h4 {
       color: $fourth_color;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 3em;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 2.5em;
     }
   }
   h5 {
     font-size: 4em;
     margin-bottom: 20px;
+    transition: font-size 300ms ease-out;
+    @media screen and (max-width: 768px) {
+      font-size: 3em;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 2.5em;
+    }
   }
 }

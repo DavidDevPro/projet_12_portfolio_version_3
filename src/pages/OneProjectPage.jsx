@@ -17,7 +17,7 @@ const OneProjectPage = () => {
     <main>
       <HeadPages
         headText={`Projet ${data.pageId}`}
-        icon={<FaFileWaveform size={45} />}
+        icon={<FaFileWaveform />}
       />
       <section className="one_project_section">
         <h1>Illustrations du projet</h1>
