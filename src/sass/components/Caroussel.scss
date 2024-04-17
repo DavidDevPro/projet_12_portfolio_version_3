@@ -9,7 +9,11 @@
   margin: 50px auto 0px;
   position: relative;
   border-radius: 25px;
+  transition: height 300ms ease-out;
   animation: delayCaroussel 1000ms ease;
+  @media screen and (max-width: 768px) {
+    height: 380px;
+  }
   &::after {
     content: "";
     @include shadow_button;
@@ -41,6 +45,10 @@
     object-fit: cover;
     border-radius: 25px;
     z-index: 1;
+    transition: height 300ms ease-out;
+    @media screen and (max-width: 768px) {
+      height: 380px;
+    }
   }
   .arrow {
     @include shadow_button;
@@ -57,6 +65,10 @@
     padding: 7px;
     font-size: 60px;
     cursor: pointer;
+    transition: font-size 300ms ease-out;
+    @media screen and (max-width: 768px) {
+      font-size: 46px;
+    }
   }
   .arrowLeft {
     left: 20px;
@@ -79,6 +91,10 @@
     border-radius: 25px;
     opacity: 0.95;
     z-index: 3;
+    transition: bottom 300ms ease-out;
+    @media screen and (max-width: 768px) {
+      bottom: 9%;
+    }
   }
   .slide_dots {
     position: absolute;

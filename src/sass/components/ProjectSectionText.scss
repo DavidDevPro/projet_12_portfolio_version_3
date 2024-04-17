@@ -33,6 +33,15 @@
     p {
       font-size: 1.1em;
       line-height: 1.5em;
+      transition: font-size 300ms ease-out, line-height 300ms ease-out;
+      @media screen and (max-width: 768px) {
+        font-size: 1em;
+        line-height: 1.3em;
+      }
+      @media screen and (max-width: 400px) {
+        font-size: 0.9em;
+        line-height: 1.2em;
+      }
     }
   }
 }

@@ -10,6 +10,11 @@
   align-items: center;
   justify-content: center;
   gap: 75px;
+  transition: flex-direction 300ms ease-out, gap 300ms ease-out;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 15px;
+  }
 
   &_button {
     display: flex;
