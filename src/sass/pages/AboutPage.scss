@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  overflow: hidden;
   transition: flex-direction 300ms ease-out;
   @media screen and (max-width: 1024px) {
     flex-direction: column;
@@ -110,7 +111,7 @@
     transition: width 300ms ease-out, margin 300ms ease-out;
     @media screen and (max-width: 1024px) {
       width: 100%;
-      margin: 75px auto;
+      margin: 50px auto;
     }
 
     &_content {
@@ -128,6 +129,9 @@
       }
 
       @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+        }
         100% {
           transform: rotate(360deg);
         }
@@ -136,6 +140,7 @@
       div:nth-child(1) {
         color: $sass_color;
         position: absolute;
+        font-size: 80px;
         top: -15%;
         left: 41%;
         transform: rotate(15deg);
@@ -148,6 +153,7 @@
       div:nth-child(2) {
         color: $react_color;
         position: absolute;
+        font-size: 80px;
         top: 37%;
         right: -11.5%;
         transition: top 300ms ease-out, right 300ms ease-out;
@@ -159,6 +165,7 @@
       div:nth-child(3) {
         color: $github_color;
         position: absolute;
+        font-size: 80px;
         bottom: -10%;
         left: 41%;
         transform: rotate(180deg);
@@ -171,8 +178,9 @@
       div:nth-child(4) {
         color: $nodejs_color;
         position: absolute;
+        font-size: 80px;
         top: 38%;
-        left: -11%;
+        left: -9%;
         transform: rotate(-90deg);
         transition: top 300ms ease-out, left 300ms ease-out;
         @media screen and (max-width: 768px) {
@@ -183,6 +191,7 @@
       div:nth-child(5) {
         color: $js_color;
         position: absolute;
+        font-size: 80px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);

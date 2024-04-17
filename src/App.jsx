@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import ProjectPage from "./pages/ProjectPage";
 import OneProjectPage from "./pages/OneProjectPage";
 import ContactPage from "./pages/ContactPage";
+import MentionsPage from "./pages/MentionsPage";
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/project" element={<ProjectPage />} />
           <Route path="/project/:id" element={<OneProjectPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/mentions-legales" element={<MentionsPage />} />
         </Routes>
         {/* Footer*/}
         <Footer />

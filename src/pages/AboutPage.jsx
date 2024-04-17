@@ -45,19 +45,19 @@ const AboutPage = () => {
         <div className="about_wrapper">
           <div className="about_wrapper_content">
             <div>
-              <FaSass size={80} />
+              <FaSass />
             </div>
             <div>
-              <FaReact size={80} />
+              <FaReact />
             </div>
             <div>
-              <FaGithub size={70} />
+              <FaGithub />
             </div>
             <div>
-              <TbBrandNodejs size={80} />
+              <TbBrandNodejs />
             </div>
             <div>
-              <IoLogoJavascript size={100} />
+              <IoLogoJavascript />
             </div>
           </div>
         </div>
