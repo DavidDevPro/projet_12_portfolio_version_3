@@ -31,9 +31,10 @@ const Footer = () => {
           <div className="footer_content_copyright">
             <p>
               {copyrightText}
-              <Link to="/mentions-legales"
-              className="mentions">Mentions légales</Link>
-              </p>
+              <Link to="/mentions-legales" className="mentions_link">
+                Mentions légales
+              </Link>
+            </p>
           </div>
           <div className="footer_content_boxIcon">
             {dataIcons.map((data, index) => {

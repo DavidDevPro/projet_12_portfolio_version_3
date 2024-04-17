@@ -1,0 +1,25 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+.mentions {
+  width: 100%;
+  max-width: 1240px;
+  margin: 25px auto 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h3 {
+    color: $primary_color;
+    font-size: 1.8em;
+    font-weight: 500;
+    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.205);
+  }
+  p {
+    color: $secondary100_color;
+    font-size: 1.2em;
+    font-weight: 400;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}

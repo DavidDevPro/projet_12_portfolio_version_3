@@ -36,7 +36,7 @@
       color: $secondary100_color;
       font-size: 1.05em;
       padding-right: 20px;
-      .mentions {
+      .mentions_link {
         @include inter;
         text-decoration: none;
         color: $fourth_color;
