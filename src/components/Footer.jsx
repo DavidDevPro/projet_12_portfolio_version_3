@@ -6,6 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const anneeActuelle = new Date().getFullYear();
@@ -15,7 +16,7 @@ const Footer = () => {
   if (anneeActuelle > anneeDebut) {
     copyrightText += ` - ${anneeActuelle}`;
   }
-  copyrightText += ` David Changea | Tous Droits résérvés | Version : ${Config.version} | Mentions légales `;
+  copyrightText += ` David Changea | Tous Droits résérvés | Version : ${Config.version} | `;
   const icons = {
     FaTwitter: FaTwitter,
     FaLinkedinIn: FaLinkedinIn,
@@ -28,7 +29,11 @@ const Footer = () => {
       <div className="footer">
         <div className="footer_content">
           <div className="footer_content_copyright">
-            <p>{copyrightText}</p>
+            <p>
+              {copyrightText}
+              <Link to="/mentions-legales"
+              className="mentions">Mentions légales</Link>
+              </p>
           </div>
           <div className="footer_content_boxIcon">
             {dataIcons.map((data, index) => {
