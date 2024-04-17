@@ -4,22 +4,32 @@
 .mentions {
   width: 100%;
   max-width: 1240px;
-  margin: 25px auto 0;
+  margin: 10px auto 0;
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  transition: text-align 300ms ease-out;
+  @media screen and (max-width: 768px) {
+    text-align: left;
+  }
   h3 {
     color: $primary_color;
-    font-size: 1.8em;
-    font-weight: 500;
-    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.205);
+    font-size: 2em;
+    font-weight: 600;
+    transition: font-size 300ms ease-out;
+    @media screen and (max-width: 768px) {
+      font-size: 1.65em;
+    }
   }
   p {
     color: $secondary100_color;
-    font-size: 1.2em;
+    font-size: 1.25em;
     font-weight: 400;
     max-width: 1024px;
     margin: 0 auto;
+    @media screen and (max-width: 768px) {
+      font-size: 1.1em;
+    }
   }
 }
