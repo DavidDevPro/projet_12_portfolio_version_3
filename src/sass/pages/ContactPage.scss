@@ -27,13 +27,18 @@
   .contact_section {
     max-width: 1600px;
     padding: 60px 20px 0px;
+    transition: padding 300ms ease-out;
+    @media screen and (max-width: 768px) {
+      padding: 0px 20px 0px;
+    }
   }
   .contact_section_form {
     max-width: 800px;
     padding: 100px 20px 85px;
-    transition: padding 300ms ease-out;
+    transition: padding 300ms ease-out, max-width 300ms ease-out;
     @media screen and (max-width: 768px) {
-      padding: 50px 20px 85px;
+      padding: 0px 25px 0px;
+      max-width: 700px;
     }
   }
   .scroll_button {

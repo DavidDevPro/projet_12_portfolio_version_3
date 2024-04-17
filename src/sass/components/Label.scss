@@ -10,4 +10,10 @@ label {
   padding-left: 2px;
   font-size: 1.45em;
   font-weight: 600;
+  transition: font-size 300ms ease-out, gap 300ms ease-out, color 300ms ease-out;
+  @media screen and (max-width: 768px) {
+    font-size: 1.2em;
+    gap: 10px;
+    color: $secondary100_color;
+  }
 }
