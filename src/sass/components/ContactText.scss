@@ -20,9 +20,10 @@
     font-weight: 600;
     margin-bottom: 70px;
     text-shadow: 0 1px 3px rgba(255, 255, 255, 0.205);
-    transition: font-size 300ms ease-out;
+    transition: font-size 300ms ease-out, margin-bottom 300ms ease-out;
     @media screen and (max-width: 1240px) {
       font-size: 4.25em;
+      margin-bottom: 25px;
     }
     @media screen and (max-width: 1024px) {
       font-size: 3.12em;
@@ -51,7 +52,7 @@
     border-bottom: 1px dashed $fourth_color;
     transition: margin 300ms ease-out;
     @media screen and (max-width: 768px) {
-      margin: 0 auto 50px;
+      margin: 0 auto 25px;
     }
   }
   .text_question,
@@ -72,6 +73,10 @@
     border-bottom: 1px dashed $fourth_color;
     padding-bottom: 20px;
     margin-bottom: 50px;
+    transition: margin-bottom 300ms ease-out;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 20px;
+    }
   }
 }
 .fade-in {
