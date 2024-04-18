@@ -1,4 +1,9 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import {
+  Route,
+  BrowserRouter as Router,
+  Routes,
+  useLocation,
+} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import Header from "./components/Header";
@@ -7,15 +12,29 @@ import ProjectPage from "./pages/ProjectPage";
 import OneProjectPage from "./pages/OneProjectPage";
 import ContactPage from "./pages/ContactPage";
 import MentionsPage from "./pages/MentionsPage";
+import { useEffect } from "react";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 const App = () => {
-
-  const basename = import.meta.env.MODE === "production" ? "/projet_12_portfolio_version_3" : "";
+  const basename =
+    import.meta.env.MODE === "production"
+      ? "/projet_12_portfolio_version_3"
+      : "";
   return (
     <>
       <Router basename={basename}>
         {/* Header Navigation*/}
         <Header />
+        <ScrollToTop />
         <Routes>
           <Route index path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
