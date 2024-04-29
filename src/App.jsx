@@ -25,10 +25,7 @@ function ScrollToTop() {
 }
 
 const App = () => {
-  const basename =
-    import.meta.env.MODE === "production"
-      ? "/projet_12_portfolio_version_3"
-      : "";
+  const basename = import.meta.env.MODE === "production" ? "/" : "";
   return (
     <>
       <Router basename={basename}>
