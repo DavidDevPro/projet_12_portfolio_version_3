@@ -100,8 +100,12 @@
       "Laravel",
       "SQL"
     ],
+    "aboutText1": "",
+    "aboutText2": "",
+    "aboutText3": "",
+    "aboutText4": "",
     "github": "https://github.com/david-backup/projet_auto-street_react",
-    "website": "https://david-backup.github.io/projet_auto-street_react/"
+    "website": "https://auto-street.david-devcode.fr/"
   },
   {
     "id": "4",
@@ -150,6 +154,6 @@
     "aboutText3": "",
     "aboutText4": "",
     "github": "https://github.com/david-backup/projet_12_portfolio_version_3",
-    "website": "https://david-backup.github.io/projet_12_portfolio_version_3/"
+    "website": "https://portfolio.david-devcode.fr/"
   }
 ]
