@@ -100,10 +100,10 @@
       "Laravel",
       "SQL"
     ],
-    "aboutText1": "",
-    "aboutText2": "",
-    "aboutText3": "",
-    "aboutText4": "",
+    "aboutText1": "Ce projet a été conçu et développé entièrement sur mesure en utilisant React, afin de répondre précisément aux besoins spécifiques d'un ami. Chaque composant a été soigneusement élaboré pour garantir une performance optimale et une expérience utilisateur fluide et intuitive.",
+    "aboutText2": "De plus, la partie back-end est gérée par Laravel, ce qui assure une robustesse et une sécurité accrues, ainsi qu'une intégration harmonieuse entre le client et le serveur.",
+    "aboutText3": "L'administrateur a la capacité de se connecter de manière sécurisée et d'accéder à une interface dédiée, lui permettant de créer, modifier et supprimer ses fiches produits avec une grande facilité. ",
+    "aboutText4": "Cette gestion est rendue possible grâce à une base de données SQL robuste et active, assurant ainsi une gestion efficace et fiable des données produits.",
     "github": "https://github.com/david-backup/projet_auto-street_react",
     "website": "https://auto-street.david-devcode.fr/"
   },
@@ -149,10 +149,10 @@
       "React",
       "Sass"
     ],
-    "aboutText1": "",
-    "aboutText2": "",
-    "aboutText3": "",
-    "aboutText4": "",
+    "aboutText1": "Dans ce projet, j'ai appliqué toutes les compétences acquises au cours de ma formation de développeur.",
+    "aboutText2": "Ce portfolio illustre de manière détaillée les compétences que j'ai acquises et maîtrisées ainsi que les projets que j'ai personnellement réalisés, offrant ainsi une vue d'ensemble de mon parcours professionnel.",
+    "aboutText3": "Il sert non seulement à me présenter de manière exhaustive, mais aussi à faciliter les opportunités de contact pour d'éventuelles collaborations ou offres d'emploi.",
+    "aboutText4": "Ce site a été entièrement développé en utilisant React pour la gestion de l'interface utilisateur dynamique et réactive, ainsi que Sass pour le stylisme CSS avancé, garantissant ainsi un design moderne, maintenable et esthétiquement plaisant.",
     "github": "https://github.com/david-backup/projet_12_portfolio_version_3",
     "website": "https://portfolio.david-devcode.fr/"
   }
