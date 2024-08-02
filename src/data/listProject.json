@@ -22,8 +22,7 @@
     "aboutText2": "En plus du débogage, j'ai complété le cahier de recette détaillant les scénarios de test nécessaires pour garantir le bon fonctionnement du site, y compris des tests unitaires et fonctionnels.",
     "aboutText3": "Pour la gestion du projet, j'ai opté pour Yarn comme gestionnaire de packages et Node.js pour l'exécution du code côté serveur, facilitant ainsi la gestion des dépendances et l'exécution de tests locaux.",
     "aboutText4": "En utilisant GitHub pour la gestion de version et Visual Studio Code comme éditeur de code, la qualité du travail a été maintenue à un haut niveau. Cette approche a permis d'assurer un développement et un débogage efficaces du site, tout en mettant en valeur mes compétences en débogage, rédaction de cahiers de recette et utilisation d'outils de développement. Ces compétences sont cruciales pour garantir la qualité et la fiabilité des sites web développés.",
-    "github": "https://github.com/david-backup/projet_10_724events_exercices",
-    "website": ""
+    "github": "https://github.com/david-backup/projet_10_724events_exercices"
   },
   {
     "id": "1",
