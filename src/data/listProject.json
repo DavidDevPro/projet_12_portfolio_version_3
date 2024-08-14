@@ -6,12 +6,12 @@
     "title": "Site 724 Events",
     "cover": "./images/724_events.webp",
     "pictures": [
-      "https://portfolio.david-devcode.fr/images/724_events_1.webp",
-      "https://portfolio.david-devcode.fr/images/724_events_2.webp",
-      "https://portfolio.david-devcode.fr/images/724_events_3.webp",
-      "https://portfolio.david-devcode.fr/images/724_events_4.webp",
-      "https://portfolio.david-devcode.fr/images/724_events_5.webp",
-      "https://portfolio.david-devcode.fr/images/724_events_6.webp"
+      "https://portfolio.davidwebprojects.fr/images/724_events_1.webp",
+      "https://portfolio.davidwebprojects.fr/images/724_events_2.webp",
+      "https://portfolio.davidwebprojects.fr/images/724_events_3.webp",
+      "https://portfolio.davidwebprojects.fr/images/724_events_4.webp",
+      "https://portfolio.davidwebprojects.fr/images/724_events_5.webp",
+      "https://portfolio.davidwebprojects.fr/images/724_events_6.webp"
     ],
     "tags": [
       "React",
@@ -31,13 +31,13 @@
     "title": "Site Qwenta",
     "cover": "./images/menu_maker.webp",
     "pictures": [
-      "https://portfolio.david-devcode.fr/images/menu_maker_1.webp",
-      "https://portfolio.david-devcode.fr/images/menu_maker_2.webp",
-      "https://portfolio.david-devcode.fr/images/menu_maker_3.webp",
-      "https://portfolio.david-devcode.fr/images/menu_maker_4.webp",
-      "https://portfolio.david-devcode.fr/images/menu_maker_5.webp",
-      "https://portfolio.david-devcode.fr/images/menu_maker_6.webp",
-      "https://portfolio.david-devcode.fr/images/menu_maker_7.webp"
+      "https://portfolio.davidwebprojects.fr/images/menu_maker_1.webp",
+      "https://portfolio.davidwebprojects.fr/images/menu_maker_2.webp",
+      "https://portfolio.davidwebprojects.fr/images/menu_maker_3.webp",
+      "https://portfolio.davidwebprojects.fr/images/menu_maker_4.webp",
+      "https://portfolio.davidwebprojects.fr/images/menu_maker_5.webp",
+      "https://portfolio.davidwebprojects.fr/images/menu_maker_6.webp",
+      "https://portfolio.davidwebprojects.fr/images/menu_maker_7.webp"
     ],
     "tags": [
       "Spécifications techniques",
@@ -59,14 +59,14 @@
     "title": "Site Nina Carducci",
     "cover": "./images/nina_cover.webp",
     "pictures": [
-      "https://portfolio.david-devcode.fr/images/nina_1.webp",
-      "https://portfolio.david-devcode.fr/images/nina_2.webp",
+      "https://portfolio.davidwebprojects.fr/images/nina_1.webp",
+      "https://portfolio.davidwebprojects.fr/images/nina_2.webp",
       "https://portfolio.david-devcode.fr/images/nina_3.webp",
-      "https://portfolio.david-devcode.fr/images/nina_4.webp",
-      "https://portfolio.david-devcode.fr/images/nina_5.webp",
-      "https://portfolio.david-devcode.fr/images/nina_6.webp",
-      "https://portfolio.david-devcode.fr/images/nina_7.webp",
-      "https://portfolio.david-devcode.fr/images/nina_8.webp"
+      "https://portfolio.davidwebprojects.fr/images/nina_4.webp",
+      "https://portfolio.davidwebprojects.fr/images/nina_5.webp",
+      "https://portfolio.davidwebprojects.fr/images/nina_6.webp",
+      "https://portfolio.davidwebprojects.fr/images/nina_7.webp",
+      "https://portfolio.davidwebprojects.fr/images/nina_8.webp"
     ],
     "tags": [
       "SEO",
@@ -87,11 +87,11 @@
     "title": "Site Auto-Street",
     "cover": "./images/auto_street_cover.webp",
     "pictures": [
-      "https://portfolio.david-devcode.fr/images/auto_street_1.webp",
-      "https://portfolio.david-devcode.fr/images/auto_street_2.webp",
-      "https://portfolio.david-devcode.fr/images/auto_street_3.webp",
-      "https://portfolio.david-devcode.fr/images/auto_street_4.webp",
-      "https://portfolio.david-devcode.fr/images/auto_street_5.webp"
+      "https://portfolio.davidwebprojects.fr/images/auto_street_1.webp",
+      "https://portfolio.davidwebprojects.fr/images/auto_street_2.webp",
+      "https://portfolio.davidwebprojects.fr/images/auto_street_3.webp",
+      "https://portfolio.davidwebprojects.fr/images/auto_street_4.webp",
+      "https://portfolio.davidwebprojects.fr/images/auto_street_5.webp"
     ],
     "tags": [
       "React",
@@ -113,12 +113,12 @@
     "title": "Site ArgentBank",
     "cover": "./images/argentbank_cover.webp",
     "pictures": [
-      "https://portfolio.david-devcode.fr/images/argent_bank_1.webp",
-      "https://portfolio.david-devcode.fr/images/argent_bank_2.webp",
-      "https://portfolio.david-devcode.fr/images/argent_bank_3.webp",
-      "https://portfolio.david-devcode.fr/images/argent_bank_4.webp",
-      "https://portfolio.david-devcode.fr/images/argent_bank_5.webp",
-      "https://portfolio.david-devcode.fr/images/argent_bank_6.webp"
+      "https://portfolio.davidwebprojects.fr/images/argent_bank_1.webp",
+      "https://portfolio.davidwebprojects.fr/images/argent_bank_2.webp",
+      "https://portfolio.davidwebprojects.fr/images/argent_bank_3.webp",
+      "https://portfolio.davidwebprojects.fr/images/argent_bank_4.webp",
+      "https://portfolio.davidwebprojects.fr/images/argent_bank_5.webp",
+      "https://portfolio.davidwebprojects.fr/images/argent_bank_6.webp"
     ],
     "tags": [
       "React",
@@ -140,9 +140,9 @@
     "title": "Mon Portfolio",
     "cover": "./images/portfolio_cover.webp",
     "pictures": [
-      "https://portfolio.david-devcode.fr/images/portfolio_1.webp",
-      "https://portfolio.david-devcode.fr/images/portfolio_2.webp",
-      "https://portfolio.david-devcode.fr/images/portfolio_3.webp"
+      "https://portfolio.davidwebprojects.fr/images/portfolio_1.webp",
+      "https://portfolio.davidwebprojects.fr/images/portfolio_2.webp",
+      "https://portfolio.davidwebprojects.fr/images/portfolio_3.webp"
     ],
     "tags": [
       "React",
@@ -153,6 +153,6 @@
     "aboutText3": "Il sert non seulement à me présenter de manière exhaustive, mais aussi à faciliter les opportunités de contact pour d'éventuelles collaborations ou offres d'emploi.",
     "aboutText4": "Ce site a été entièrement développé en utilisant React pour la gestion de l'interface utilisateur dynamique et réactive, ainsi que Sass pour le stylisme CSS avancé, garantissant ainsi un design moderne, maintenable et esthétiquement plaisant.",
     "github": "https://github.com/david-backup/projet_12_portfolio_version_3",
-    "website": "https://portfolio.david-devcode.fr/"
+    "website": "https://portfolio.davidwebprojects.fr/"
   }
 ]

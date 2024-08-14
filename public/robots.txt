@@ -1,2 +1,27 @@
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Blocage des fichiers sensibles
+Disallow: /config/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /user/
+Disallow: /cart/
+
+# Empêcher l'exploration des pages de test ou de développement
+Disallow: /test/
+Disallow: /dev/
+
+# Blocage des URLs de paramètres pour éviter le duplicate content
+Disallow: /*?*sessionid
+Disallow: /*?*token
+Disallow: /*?*ref=
+
+# Empêcher l'exploration des pages d'archives (par exemple si votre site est un blog)
+Disallow: /archives/
+
+
