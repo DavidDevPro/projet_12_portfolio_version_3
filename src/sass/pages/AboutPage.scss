@@ -47,6 +47,31 @@
       padding-bottom: 50px;
       border-bottom: 1px dashed $fourth_color;
 
+      &_website {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        transition: flex-direction 300ms ease-out;
+        @media screen and (max-width: 768px) {
+          flex-direction: column;
+        }
+
+        p {
+          color: $primary_color;
+          line-height: 1.3em;
+          font-size: 2.6em;
+          font-weight: 600;
+          letter-spacing: 0.15px;
+          transition: font-size 300ms ease-out, letter-spacing 300ms ease-out,
+            line-height 300ms ease-out;
+          transition: font-size 300ms ease-out;
+          @media screen and (max-width: 768px) {
+            font-size: 2em;
+          }
+        }
+      }
+
       article {
         display: flex;
         flex-direction: column;

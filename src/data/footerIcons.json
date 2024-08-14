@@ -1,20 +1,20 @@
 [
   {
-    "href": "https://twitter.com",
+    "href": "https://x.com/DavidWebProject",
     "target": "_blank",
     "rel": "noopener noreferrer",
     "aria-label": "Twitter",
     "icon": "FaTwitter"
   },
   {
-    "href": "https://www.linkedin.com/in/david-changea-440a7945/",
+    "href": "https://www.linkedin.com/in/david-changea",
     "target": "_blank",
     "rel": "noopener noreferrer",
     "aria-label": "Linkedin",
     "icon": "FaLinkedinIn"
   },
   {
-    "href": "https://www.facebook.com/veday.shop/?locale=fr_FR",
+    "href": "https://www.facebook.com/DavidWebProjects/",
     "target": "_blank",
     "rel": "noopener noreferrer",
     "aria-label": "Facebook",
@@ -28,7 +28,7 @@
     "icon": "FaGithub"
   },
   {
-    "href": "mailto:14ir155@gmail.com",
+    "href": "mailto:contact@davidwebprojects.fr",
     "target": "_blank",
     "rel": "noopener noreferrer",
     "aria-label": "Envoyer un message",

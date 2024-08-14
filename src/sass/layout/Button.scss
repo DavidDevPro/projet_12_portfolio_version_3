@@ -70,3 +70,17 @@
     color: $primary200_color;
   }
 }
+
+/****** bouton vers le site David Web Projects ******/
+.buttonWebsite {
+  color: $secondary100_color;
+  background-color: $primary_color;
+  border: 2px solid $fourth_color;
+  border-radius: 25px;
+  font-size: 1.6em;
+  padding: 8px 30px;
+  &:hover {
+    color: $primary_color;
+    background-color: $secondary100_color;
+  }
+}

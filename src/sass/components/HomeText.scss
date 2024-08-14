@@ -51,4 +51,14 @@
       font-size: 2.5em;
     }
   }
+  .homeButton {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
+    transition: flex-direction 300ms ease-out;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
 }

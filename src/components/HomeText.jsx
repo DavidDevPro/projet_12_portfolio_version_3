@@ -10,9 +10,22 @@ const HomeText = () => {
         <h4>David</h4>
       </div>
       <h5>Développeur Front-End</h5>
-      <Link to="/contact">
-        <Button className={"button"} type={"submit"} text={"Contactez-moi"} />
-      </Link>
+      <div className="homeButton">
+        <Link to="/contact">
+          <Button className={"button"} type={"submit"} text={"Contactez-moi"} />
+        </Link>
+        <a
+          href="https://davidwebprojects.fr/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            className={"button buttonWebsite"}
+            type={"button"}
+            text={"David Web Projects"}
+          />
+        </a>
+      </div>
     </div>
   );
 };
